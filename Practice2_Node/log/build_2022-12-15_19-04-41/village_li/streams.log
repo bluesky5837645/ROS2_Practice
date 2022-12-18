@@ -1,0 +1,18 @@
+[0.738s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/prefix_override:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/build --no-deps install_data
+[0.993s] running develop
+[1.138s] running egg_info
+[1.139s] writing village_li.egg-info/PKG-INFO
+[1.139s] writing dependency_links to village_li.egg-info/dependency_links.txt
+[1.139s] writing entry points to village_li.egg-info/entry_points.txt
+[1.139s] writing requirements to village_li.egg-info/requires.txt
+[1.140s] writing top-level names to village_li.egg-info/top_level.txt
+[1.141s] reading manifest file 'village_li.egg-info/SOURCES.txt'
+[1.142s] writing manifest file 'village_li.egg-info/SOURCES.txt'
+[1.143s] running build_ext
+[1.144s] Creating /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/python3.10/site-packages/village-li.egg-link (link to .)
+[1.144s] Installing li4_node script to /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/village_li
+[1.145s] Installing li4_node_oop script to /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/village_li
+[1.145s] 
+[1.145s] Installed /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li
+[1.145s] running install_data
+[1.199s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/prefix_override:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/build --no-deps install_data

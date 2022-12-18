@@ -1,0 +1,131 @@
+[1m============================= test session starts ==============================[0m
+platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+cachedir: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/.pytest_cache
+rootdir: /home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li
+plugins: ament-xmllint-0.12.4, ament-pep257-0.12.4, ament-lint-0.12.4, launch-testing-1.0.3, launch-testing-ros-0.19.3, ament-flake8-0.12.4, ament-copyright-0.12.4, colcon-core-0.11.0, rerunfailures-10.2, repeat-0.9.1, cov-3.0.0
+[1mcollecting ... [0m[1m
+collected 3 items                                                              [0m
+
+test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+
+=================================== FAILURES ===================================
+[31m[1m_________________________________ test_flake8 __________________________________[0m
+[1m[31mtest/test_flake8.py[0m:23: in test_flake8
+    [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[1m[31mE   AssertionError: Found 14 code style errors / warnings:[0m
+[1m[31mE     ./setup.py:23:13: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./setup.py:24:13: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./village_li/li4_oop.py:4:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./village_li/li4_oop.py:5:1: CNL100 Class definition does not have a new line.[0m
+[1m[31mE     ./village_li/li4_oop.py:5:22: E231 missing whitespace after ','[0m
+[1m[31mE     ./village_li/li4_oop.py:7:32: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./village_li/li4_oop.py:7:46: E225 missing whitespace around operator[0m
+[1m[31mE     ./village_li/li4_oop.py:9:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./village_li/li4_oop.py:11:23: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./village_li/li4_oop.py:13:21: W292 no newline at end of file[0m
+[1m[31mE     ./village_li/li4.py:4:1: E302 expected 2 blank lines, found 1[0m
+[1m[31mE     ./village_li/li4.py:6:17: Q000 Double quotes found but single quotes preferred[0m
+[33m=============================== warnings summary ===============================[0m
+test/test_flake8.py::test_flake8
+test/test_flake8.py::test_flake8
+  Warning: SelectableGroups dict interface is deprecated. Use select.
+
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+[1m[31mE     ./village_li/li4.py:7:28: Q000 Double quotes found but single quotes preferred[0m
+[1m[31mE     ./village_li/li4.py:9:21: W292 no newline at end of file[0m
+[1m[31mE   assert 1 == 0[0m
+----------------------------- Captured stdout call -----------------------------
+
+./setup.py:23:13: Q000 Double quotes found but single quotes preferred
+            "li4_node = village_li.li4:main",
+            ^
+
+./setup.py:24:13: Q000 Double quotes found but single quotes preferred
+            "li4_node_oop = village_li.li4_oop:main"
+            ^
+
+./village_li/li4_oop.py:4:1: E302 expected 2 blank lines, found 1
+class writerNode(Node):
+^
+
+./village_li/li4_oop.py:5:1: CNL100 Class definition does not have a new line.
+    def __init__(self,name):
+^
+
+./village_li/li4_oop.py:5:22: E231 missing whitespace after ','
+    def __init__(self,name):
+                     ^
+
+./village_li/li4_oop.py:7:32: Q000 Double quotes found but single quotes preferred
+        self.get_logger().info("大家好,我是作家%s" %name)
+                               ^
+
+./village_li/li4_oop.py:7:46: E225 missing whitespace around operator
+        self.get_logger().info("大家好,我是作家%s" %name)
+                                             ^
+
+./village_li/li4_oop.py:9:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./village_li/li4_oop.py:11:23: Q000 Double quotes found but single quotes preferred
+    node = writerNode("li5")
+                      ^
+
+./village_li/li4_oop.py:13:21: W292 no newline at end of file
+    rclpy.shutdown()                    ^
+
+./village_li/li4.py:4:1: E302 expected 2 blank lines, found 1
+def main(args=None):
+^
+
+./village_li/li4.py:6:17: Q000 Double quotes found but single quotes preferred
+    node = Node("li4")
+                ^
+
+./village_li/li4.py:7:28: Q000 Double quotes found but single quotes preferred
+    node.get_logger().info("大家好,我是作家李四")
+                           ^
+
+./village_li/li4.py:9:21: W292 no newline at end of file
+    rclpy.shutdown()                    ^
+
+1     CNL100 Class definition does not have a new line.
+1     E225 missing whitespace around operator
+1     E231 missing whitespace after ','
+3     E302 expected 2 blank lines, found 1
+6     Q000 Double quotes found but single quotes preferred
+2     W292 no newline at end of file
+
+7 files checked
+14 errors
+
+'C'-type errors: 1
+'E'-type errors: 5
+'Q'-type errors: 6
+'W'-type errors: 2
+
+Checked files:
+
+* ./setup.py
+* ./village_li/__init__.py
+* ./village_li/li4_oop.py
+* ./village_li/li4.py
+* ./test/test_flake8.py
+* ./test/test_copyright.py
+* ./test/test_pep257.py
+----------------------------- Captured stderr call -----------------------------
+option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --application-import-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --application-package-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --import-order-style: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --inline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --multiline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+option --docstring-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+- generated xml file: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/pytest.xml -
+=========================== short test summary info ============================
+FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 14 code style...
+[31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.24s[0m[31m ==============[0m

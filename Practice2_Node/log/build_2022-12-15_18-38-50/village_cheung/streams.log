@@ -1,0 +1,26 @@
+[0.024s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung -- -j12 -l12
+[0.246s] [35m[1mConsolidate compiler generated dependencies of target cheung_oop[0m
+[0.246s] [ 50%] [32mBuilding CXX object CMakeFiles/cheung_oop.dir/src/cheung_oop.cpp.o[0m
+[2.193s] [100%] [32m[1mLinking CXX executable cheung_oop[0m
+[2.264s] [100%] Built target cheung_oop
+[2.270s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li:/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung -- -j12 -l12
+[2.283s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung
+[2.287s] -- Install configuration: ""
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/ament_index/resource_index/package_run_dependencies/village_cheung
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/ament_index/resource_index/parent_prefix_path/village_cheung
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/environment/ament_prefix_path.sh
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/environment/ament_prefix_path.dsv
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/environment/path.sh
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/environment/path.dsv
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/local_setup.bash
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/local_setup.sh
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/local_setup.zsh
+[2.287s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/local_setup.dsv
+[2.287s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.dsv
+[2.288s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/ament_index/resource_index/packages/village_cheung
+[2.288s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/cmake/village_cheungConfig.cmake
+[2.288s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/cmake/village_cheungConfig-version.cmake
+[2.288s] -- Up-to-date: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.xml
+[2.288s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/lib/village_cheung/cheung_oop
+[2.288s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/lib/village_cheung/cheung_oop" to ""
+[2.290s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li:/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung

@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing village_cheung_py.egg-info/PKG-INFO
+writing dependency_links to village_cheung_py.egg-info/dependency_links.txt
+writing entry points to village_cheung_py.egg-info/entry_points.txt
+writing requirements to village_cheung_py.egg-info/requires.txt
+writing top-level names to village_cheung_py.egg-info/top_level.txt
+reading manifest file 'village_cheung_py.egg-info/SOURCES.txt'
+writing manifest file 'village_cheung_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/python3.10/site-packages/village-cheung-py.egg-link (link to .)
+Installing cheung script to /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/village_cheung_py
+Installing cheung_oop script to /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/village_cheung_py
+
+Installed /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py
+running install_data

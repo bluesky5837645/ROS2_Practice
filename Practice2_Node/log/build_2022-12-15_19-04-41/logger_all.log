@@ -1,0 +1,320 @@
+[0.117s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.117s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7feeae4a2a40>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7feeae4a24d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7feeae4a24d0>>)
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.138s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.138s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/lio/Desktop/ROSPractice/Practice2_Node'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.147s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.148s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung) by extensions ['colcon_meta']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung) by extension 'colcon_meta'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung) by extensions ['ros']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung) by extension 'ros'
+[0.151s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_cheung' with type 'ros.ament_cmake' and name 'village_cheung'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung_py) by extensions ['ignore', 'ignore_ament_install']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung_py) by extension 'ignore'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung_py) by extension 'ignore_ament_install'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung_py) by extensions ['colcon_pkg']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung_py) by extension 'colcon_pkg'
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung_py) by extensions ['colcon_meta']
+[0.151s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung_py) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung_py) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_cheung_py) by extension 'ros'
+[0.152s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_cheung_py' with type 'ros.ament_python' and name 'village_cheung_py'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['ignore', 'ignore_ament_install']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'ignore'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'ignore_ament_install'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['colcon_pkg']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'colcon_pkg'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['colcon_meta']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'colcon_meta'
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extensions ['ros']
+[0.152s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_li) by extension 'ros'
+[0.153s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_li' with type 'ros.ament_python' and name 'village_li'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ignore', 'ignore_ament_install']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ignore_ament_install'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_pkg']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_pkg'
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['colcon_meta']
+[0.153s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'colcon_meta'
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extensions ['ros']
+[0.154s] Level 1:colcon.colcon_core.package_identification:_identify(src/village_wang) by extension 'ros'
+[0.154s] DEBUG:colcon.colcon_core.package_identification:Package 'src/village_wang' with type 'ros.ament_cmake' and name 'village_wang'
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.154s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.173s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.176s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_cheung' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_cheung' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_cheung' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_cheung' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_cheung' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_cheung' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_cheung' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_cheung' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'village_cheung' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'village_cheung' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung', 'merge_install': False, 'path': '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_cheung', 'symlink_install': True, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'village_cheung_py' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'village_cheung_py' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'village_cheung_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'village_cheung_py' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'village_cheung_py' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'village_cheung_py' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'village_cheung_py' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'village_cheung_py' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'village_cheung_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'village_cheung_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py', 'merge_install': False, 'path': '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_cheung_py', 'symlink_install': True, 'test_result_base': None}
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_target' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_clean_cache' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_clean_first' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'cmake_force_configure' from command line to 'False'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'ament_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'catkin_cmake_args' from command line to 'None'
+[0.228s] Level 5:colcon.colcon_core.verb:set package 'village_li' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.228s] DEBUG:colcon.colcon_core.verb:Building package 'village_li' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li', 'merge_install': False, 'path': '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li', 'symlink_install': True, 'test_result_base': None}
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_cache' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_clean_first' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'cmake_force_configure' from command line to 'False'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'ament_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_cmake_args' from command line to 'None'
+[0.229s] Level 5:colcon.colcon_core.verb:set package 'village_wang' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.229s] DEBUG:colcon.colcon_core.verb:Building package 'village_wang' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang', 'merge_install': False, 'path': '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang', 'symlink_install': True, 'test_result_base': None}
+[0.230s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.232s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.233s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_cheung' with build type 'ament_cmake'
+[0.233s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_cheung'
+[0.236s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.240s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_cheung_py' with build type 'ament_python'
+[0.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_cheung_py', 'ament_prefix_path')
+[0.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/hook/ament_prefix_path.ps1'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/hook/ament_prefix_path.dsv'
+[0.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/hook/ament_prefix_path.sh'
+[0.244s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.244s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.246s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li' with build type 'ament_python'
+[0.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_li', 'ament_prefix_path')
+[0.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/hook/ament_prefix_path.ps1'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/hook/ament_prefix_path.dsv'
+[0.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/hook/ament_prefix_path.sh'
+[0.249s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.249s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.252s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang' with build type 'ament_cmake'
+[0.252s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang'
+[0.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lio/Desktop/ROSPractice/Practice2_Node/src/village_cheung -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung
+[0.468s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_cheung_py'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.679s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li'
+[0.680s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.680s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.689s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lio/Desktop/ROSPractice/Practice2_Node/src/village_cheung -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung
+[0.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung -- -j12 -l12
+[0.979s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/prefix_override:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/build --no-deps install_data
+[0.983s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/ament_index/resource_index/packages/village_li
+[0.983s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/package.xml
+[0.983s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/village_li/li4_node
+[0.983s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/village_li/li4_node_oop
+[0.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/prefix_override:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/build --no-deps install_data
+[1.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang -- -j12 -l12
+[1.415s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang -- -j12 -l12
+[1.419s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_cheung_py', 'pythonpath_develop')
+[1.420s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/share/village_cheung_py/hook/pythonpath_develop.ps1'
+[1.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/prefix_override:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/build --no-deps install_data
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/share/village_cheung_py/hook/pythonpath_develop.dsv'
+[1.421s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/share/village_cheung_py/hook/pythonpath_develop.sh'
+[1.426s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py' for CMake module files
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py' for CMake config files
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/bin'
+[1.427s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/pkgconfig/village_cheung_py.pc'
+[1.428s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/python3.10/site-packages'
+[1.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_cheung_py', 'pythonpath')
+[1.429s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/hook/pythonpath.ps1'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/hook/pythonpath.dsv'
+[1.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/hook/pythonpath.sh'
+[1.430s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/bin'
+[1.430s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_cheung_py)
+[1.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/package.ps1'
+[1.432s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/package.dsv'
+[1.433s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/package.sh'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/package.bash'
+[1.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/village_cheung_py/package.zsh'
+[1.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/share/colcon-core/packages/village_cheung_py)
+[1.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_li', 'pythonpath_develop')
+[1.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang
+[1.445s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/share/village_li/hook/pythonpath_develop.ps1'
+[1.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/prefix_override:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/build --no-deps install_data
+[1.446s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/share/village_li/hook/pythonpath_develop.dsv'
+[1.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/share/village_li/hook/pythonpath_develop.sh'
+[1.449s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li' for CMake module files
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li' for CMake config files
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/bin'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/pkgconfig/village_li.pc'
+[1.450s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/python3.10/site-packages'
+[1.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_li', 'pythonpath')
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/hook/pythonpath.ps1'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/hook/pythonpath.dsv'
+[1.452s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/hook/pythonpath.sh'
+[1.453s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/bin'
+[1.453s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_li)
+[1.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/package.ps1'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/package.dsv'
+[1.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/package.sh'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/package.bash'
+[1.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/village_li/package.zsh'
+[1.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/share/colcon-core/packages/village_li)
+[1.544s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[1.546s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang' for CMake module files
+[1.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang
+[1.547s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang' for CMake config files
+[1.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[1.548s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[1.549s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/lib'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/bin'
+[1.549s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/lib/pkgconfig/village_wang.pc'
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/lib/python3.10/site-packages'
+[1.550s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/bin'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.ps1'
+[1.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.dsv'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.sh'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.bash'
+[1.552s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.zsh'
+[1.553s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/colcon-core/packages/village_wang)
+[1.569s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_wang)
+[1.570s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang' for CMake module files
+[1.571s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang' for CMake config files
+[1.571s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_wang', 'cmake_prefix_path')
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/hook/cmake_prefix_path.ps1'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/hook/cmake_prefix_path.dsv'
+[1.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/hook/cmake_prefix_path.sh'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/lib'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/bin'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/lib/pkgconfig/village_wang.pc'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/lib/python3.10/site-packages'
+[1.573s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/bin'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.ps1'
+[1.574s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.dsv'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.sh'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.bash'
+[1.575s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.zsh'
+[1.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/colcon-core/packages/village_wang)
+[3.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung -- -j12 -l12
+[3.208s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung
+[3.295s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_cheung)
+[3.297s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung' for CMake module files
+[3.297s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung
+[3.298s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung' for CMake config files
+[3.298s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_cheung', 'cmake_prefix_path')
+[3.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/hook/cmake_prefix_path.ps1'
+[3.299s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/hook/cmake_prefix_path.dsv'
+[3.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/hook/cmake_prefix_path.sh'
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/lib'
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/bin'
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/lib/pkgconfig/village_cheung.pc'
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/lib/python3.10/site-packages'
+[3.300s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/bin'
+[3.301s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.ps1'
+[3.301s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.dsv'
+[3.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.sh'
+[3.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.bash'
+[3.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.zsh'
+[3.302s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/colcon-core/packages/village_cheung)
+[3.317s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(village_cheung)
+[3.319s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung' for CMake module files
+[3.319s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung' for CMake config files
+[3.319s] Level 1:colcon.colcon_core.shell:create_environment_hook('village_cheung', 'cmake_prefix_path')
+[3.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/hook/cmake_prefix_path.ps1'
+[3.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/hook/cmake_prefix_path.dsv'
+[3.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/hook/cmake_prefix_path.sh'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/lib'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/bin'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/lib/pkgconfig/village_cheung.pc'
+[3.321s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/lib/python3.10/site-packages'
+[3.322s] Level 1:colcon.colcon_core.environment:checking '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/bin'
+[3.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.ps1'
+[3.323s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.dsv'
+[3.323s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.sh'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.bash'
+[3.324s] INFO:colcon.colcon_core.shell:Creating package script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/village_cheung/package.zsh'
+[3.324s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung/share/colcon-core/packages/village_cheung)
+[3.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.324s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.325s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.325s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.331s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.333s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.333s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.341s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.342s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/local_setup.ps1'
+[3.343s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lio/Desktop/ROSPractice/Practice2_Node/install/_local_setup_util_ps1.py'
+[3.344s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/setup.ps1'
+[3.345s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/local_setup.sh'
+[3.345s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/lio/Desktop/ROSPractice/Practice2_Node/install/_local_setup_util_sh.py'
+[3.346s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/setup.sh'
+[3.347s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/local_setup.bash'
+[3.347s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/setup.bash'
+[3.348s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/local_setup.zsh'
+[3.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/lio/Desktop/ROSPractice/Practice2_Node/install/setup.zsh'

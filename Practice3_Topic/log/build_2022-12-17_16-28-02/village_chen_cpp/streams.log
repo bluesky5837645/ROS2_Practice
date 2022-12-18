@@ -1,0 +1,10 @@
+[0.231s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen:/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen_cpp -- -j12 -l12
+[0.264s] [ 50%] [32mBuilding CXX object CMakeFiles/chen_pub_node.dir/src/chen_pub.cpp.o[0m
+[0.407s] [01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:2:11:[m[K [01;31m[Kfatal error: [m[Kstd_msgs/msg/string.hpp: No such file or directory
+[0.407s]     2 | # include [01;31m[K"std_msgs/msg/string.hpp"[m[K
+[0.407s]       |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.407s] compilation terminated.
+[0.408s] gmake[2]: *** [CMakeFiles/chen_pub_node.dir/build.make:76: CMakeFiles/chen_pub_node.dir/src/chen_pub.cpp.o] Error 1
+[0.409s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chen_pub_node.dir/all] Error 2
+[0.409s] gmake: *** [Makefile:146: all] Error 2
+[0.410s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen:/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen_cpp -- -j12 -l12

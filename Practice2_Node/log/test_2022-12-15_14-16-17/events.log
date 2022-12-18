@@ -1,0 +1,264 @@
+[0.000000] (-) TimerEvent: {}
+[0.000199] (village_li) JobQueued: {'identifier': 'village_li', 'dependencies': OrderedDict([('village_li', '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li')])}
+[0.000544] (village_wang) JobQueued: {'identifier': 'village_wang', 'dependencies': OrderedDict([('village_wang', '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang')])}
+[0.000584] (village_li) JobStarted: {'identifier': 'village_li'}
+[0.008925] (village_wang) JobStarted: {'identifier': 'village_wang'}
+[0.099576] (-) TimerEvent: {}
+[0.199792] (-) TimerEvent: {}
+[0.234129] (village_li) Command: {'cmd': ['/usr/bin/python3', '-m', 'pytest'], 'cwd': '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'lio', 'XDG_SESSION_TYPE': 'wayland', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/lio', 'CHROME_DESKTOP': 'code-url-handler.desktop', 'OLDPWD': '/home/lio/Desktop/ROSPractice/Practice2_Node/src', 'TERM_PROGRAM_VERSION': '1.74.1', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1989', 'SYSTEMD_EXEC_PID': '2193', 'IM_CONFIG_CHECK_ENV': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '102422', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/lio/Desktop/ROSPractice/Practice2_Node/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'lio', 'JOURNAL_STREAM': '8:39988', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'lio', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/lio-MS-7D18:@/tmp/.ICE-unix/2152,unix/lio-MS-7D18:/tmp/.ICE-unix/2152', 'INVOCATION_ID': 'f219624460dd4ef9ad7d0e9353a04d08', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.OY05W1', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3f6b4536d6.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang:/opt/ros/humble', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '--ms-enable-electron-run-as-node', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang', 'PYTEST_ADDOPTS': '--tb=short --junit-xml=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/pytest.xml --junit-prefix=village_li -o cache_dir=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/.pytest_cache'}, 'shell': False}
+[0.270057] (village_wang) Command: {'cmd': ['/usr/bin/ctest', '-C', 'Release', '-D', 'ExperimentalTest', '--no-compress-output', '-V', '--force-new-ctest-process'], 'cwd': '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'lio'), ('XDG_SESSION_TYPE', 'wayland'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/lio'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('OLDPWD', '/home/lio/Desktop/ROSPractice/Practice2_Node/src'), ('TERM_PROGRAM_VERSION', '1.74.1'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1989'), ('SYSTEMD_EXEC_PID', '2193'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '102422'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/lio/Desktop/ROSPractice/Practice2_Node/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'lio'), ('JOURNAL_STREAM', '8:39988'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'lio'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/lio-MS-7D18:@/tmp/.ICE-unix/2152,unix/lio-MS-7D18:/tmp/.ICE-unix/2152'), ('INVOCATION_ID', 'f219624460dd4ef9ad7d0e9353a04d08'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.OY05W1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3f6b4536d6.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', '--ms-enable-electron-run-as-node'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang')]), 'shell': False}
+[0.274898] (village_wang) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/CTestConfiguration.ini\n'}
+[0.275137] (village_wang) StdoutLine: {'line': b'Parse Config file:/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/CTestConfiguration.ini\n'}
+[0.275280] (village_wang) StdoutLine: {'line': b'   Site: lio-MS-7D18\n'}
+[0.275345] (village_wang) StdoutLine: {'line': b'   Build name: (empty)\n'}
+[0.275395] (village_wang) StdoutLine: {'line': b' Add coverage exclude regular expressions.\n'}
+[0.275444] (village_wang) StdoutLine: {'line': b'Create new tag: 20221215-0616 - Experimental\n'}
+[0.275492] (village_wang) StdoutLine: {'line': b'UpdateCTestConfiguration  from :/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/CTestConfiguration.ini\n'}
+[0.275542] (village_wang) StdoutLine: {'line': b'Parse Config file:/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/CTestConfiguration.ini\n'}
+[0.275647] (village_wang) StdoutLine: {'line': b'Test project /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang\n'}
+[0.275698] (village_wang) StdoutLine: {'line': b'Constructing a list of tests\n'}
+[0.275746] (village_wang) StdoutLine: {'line': b'Done constructing a list of tests\n'}
+[0.275794] (village_wang) StdoutLine: {'line': b'Updating test list for fixtures\n'}
+[0.275862] (village_wang) StdoutLine: {'line': b'Added 0 tests to meet fixture requirements\n'}
+[0.275908] (village_wang) StdoutLine: {'line': b'Checking test dependency graph...\n'}
+[0.275955] (village_wang) StdoutLine: {'line': b'Checking test dependency graph end\n'}
+[0.276001] (village_wang) StdoutLine: {'line': b'test 1\n'}
+[0.276047] (village_wang) StdoutLine: {'line': b'    Start 1: cppcheck\n'}
+[0.276111] (village_wang) StdoutLine: {'line': b'\n'}
+[0.276160] (village_wang) StdoutLine: {'line': b'1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/cppcheck.xunit.xml" "--package-name" "village_wang" "--output-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/cppcheck.xunit.xml"\n'}
+[0.276227] (village_wang) StdoutLine: {'line': b'1: Test timeout computed to be: 300\n'}
+[0.299896] (-) TimerEvent: {}
+[0.320060] (village_wang) StdoutLine: {'line': b"1: -- run_test.py: invoking following command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang':\n"}
+[0.320178] (village_wang) StdoutLine: {'line': b'1:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/cppcheck.xunit.xml\n'}
+[0.399974] (-) TimerEvent: {}
+[0.411424] (village_wang) StdoutLine: {'line': b'1: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.\n'}
+[0.419719] (village_wang) StdoutLine: {'line': b'1: -- run_test.py: return code 0\n'}
+[0.419835] (village_wang) StdoutLine: {'line': b"1: -- run_test.py: verify result file '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/cppcheck.xunit.xml'\n"}
+[0.426278] (village_wang) StdoutLine: {'line': b'1/4 Test #1: cppcheck .........................   Passed    0.15 sec\n'}
+[0.426450] (village_wang) StdoutLine: {'line': b'test 2\n'}
+[0.426513] (village_wang) StdoutLine: {'line': b'    Start 2: lint_cmake\n'}
+[0.426568] (village_wang) StdoutLine: {'line': b'\n'}
+[0.426622] (village_wang) StdoutLine: {'line': b'2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/lint_cmake.xunit.xml" "--package-name" "village_wang" "--output-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/lint_cmake.xunit.xml"\n'}
+[0.426679] (village_wang) StdoutLine: {'line': b'2: Test timeout computed to be: 60\n'}
+[0.469420] (village_wang) StdoutLine: {'line': b"2: -- run_test.py: invoking following command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang':\n"}
+[0.469535] (village_wang) StdoutLine: {'line': b'2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/lint_cmake.xunit.xml\n'}
+[0.500079] (-) TimerEvent: {}
+[0.518875] (village_wang) StdoutLine: {'line': b'2: \n'}
+[0.518991] (village_wang) StdoutLine: {'line': b'2: No problems found\n'}
+[0.525202] (village_wang) StdoutLine: {'line': b'2: -- run_test.py: return code 0\n'}
+[0.525331] (village_wang) StdoutLine: {'line': b"2: -- run_test.py: verify result file '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/lint_cmake.xunit.xml'\n"}
+[0.531753] (village_wang) StdoutLine: {'line': b'2/4 Test #2: lint_cmake .......................   Passed    0.11 sec\n'}
+[0.531940] (village_wang) StdoutLine: {'line': b'test 3\n'}
+[0.532016] (village_wang) StdoutLine: {'line': b'    Start 3: uncrustify\n'}
+[0.532099] (village_wang) StdoutLine: {'line': b'\n'}
+[0.532154] (village_wang) StdoutLine: {'line': b'3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml" "--package-name" "village_wang" "--output-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml"\n'}
+[0.532222] (village_wang) StdoutLine: {'line': b'3: Test timeout computed to be: 60\n'}
+[0.575998] (village_wang) StdoutLine: {'line': b"3: -- run_test.py: invoking following command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang':\n"}
+[0.576116] (village_wang) StdoutLine: {'line': b'3:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml\n'}
+[0.600191] (-) TimerEvent: {}
+[0.628312] (village_li) StdoutLine: {'line': b'\x1b[1m============================= test session starts ==============================\x1b[0m\n'}
+[0.628451] (village_li) StdoutLine: {'line': b'platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0\n'}
+[0.632583] (village_li) StdoutLine: {'line': b'cachedir: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/.pytest_cache\n'}
+[0.632683] (village_li) StdoutLine: {'line': b'rootdir: /home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li\n'}
+[0.632742] (village_li) StdoutLine: {'line': b'plugins: ament-xmllint-0.12.4, ament-pep257-0.12.4, ament-lint-0.12.4, launch-testing-1.0.3, launch-testing-ros-0.19.3, ament-flake8-0.12.4, ament-copyright-0.12.4, colcon-core-0.11.0, rerunfailures-10.2, repeat-0.9.1, cov-3.0.0\n'}
+[0.639393] (village_wang) StdoutLine: {'line': b"3: Code style divergence in file 'src/wang.cpp':\n"}
+[0.639504] (village_wang) StdoutLine: {'line': b'3: \n'}
+[0.639565] (village_wang) StdoutLine: {'line': b'3: --- src/wang.cpp\n'}
+[0.639620] (village_wang) StdoutLine: {'line': b'3: +++ src/wang.cpp.uncrustify\n'}
+[0.639673] (village_wang) StdoutLine: {'line': b'3: @@ -3,8 +3,9 @@\n'}
+[0.639725] (village_wang) StdoutLine: {'line': b'3: -int main(int argc, char * argv[]){\n'}
+[0.639776] (village_wang) StdoutLine: {'line': b'3: -    rclcpp::init(argc,argv);\n'}
+[0.639827] (village_wang) StdoutLine: {'line': b'3: -    auto node = std::make_shared<rclcpp::Node>("wang");\n'}
+[0.639878] (village_wang) StdoutLine: {'line': b'3: -    RCLCPP_INFO(node->get_logger(),"\xe5\xa4\xa7\xe5\xae\xb6\xe5\xa5\xbd,\xe6\x88\x91\xe6\x98\xafwang");\n'}
+[0.639931] (village_wang) StdoutLine: {'line': b'3: -    rclcpp::spin(node);\n'}
+[0.639981] (village_wang) StdoutLine: {'line': b'3: -    rclcpp::shutdown();\n'}
+[0.640031] (village_wang) StdoutLine: {'line': b'3: -    return 0;\n'}
+[0.640084] (village_wang) StdoutLine: {'line': b'3: -}\n'}
+[0.640134] (village_wang) StdoutLine: {'line': b'3: +int main(int argc, char * argv[])\n'}
+[0.640198] (village_wang) StdoutLine: {'line': b'3: +{\n'}
+[0.640250] (village_wang) StdoutLine: {'line': b'3: +  rclcpp::init(argc, argv);\n'}
+[0.640301] (village_wang) StdoutLine: {'line': b'3: +  auto node = std::make_shared<rclcpp::Node>("wang");\n'}
+[0.640351] (village_wang) StdoutLine: {'line': b'3: +  RCLCPP_INFO(node->get_logger(), "\xe5\xa4\xa7\xe5\xae\xb6\xe5\xa5\xbd,\xe6\x88\x91\xe6\x98\xafwang");\n'}
+[0.640403] (village_wang) StdoutLine: {'line': b'3: +  rclcpp::spin(node);\n'}
+[0.640453] (village_wang) StdoutLine: {'line': b'3: +  rclcpp::shutdown();\n'}
+[0.640502] (village_wang) StdoutLine: {'line': b'3: +  return 0;\n'}
+[0.640552] (village_wang) StdoutLine: {'line': b'3: +}\n'}
+[0.640602] (village_wang) StdoutLine: {'line': b'3: \n'}
+[0.640652] (village_wang) StdoutLine: {'line': b'3: 1 files with code style divergence\n'}
+[0.646613] (village_wang) StdoutLine: {'line': b'3: -- run_test.py: return code 1\n'}
+[0.646759] (village_wang) StdoutLine: {'line': b"3: -- run_test.py: verify result file '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml'\n"}
+[0.653544] (village_wang) StdoutLine: {'line': b'3/4 Test #3: uncrustify .......................***Failed    0.12 sec\n'}
+[0.653680] (village_wang) StdoutLine: {'line': b'test 4\n'}
+[0.653743] (village_wang) StdoutLine: {'line': b'    Start 4: xmllint\n'}
+[0.653798] (village_wang) StdoutLine: {'line': b'\n'}
+[0.653851] (village_wang) StdoutLine: {'line': b'4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/xmllint.xunit.xml" "--package-name" "village_wang" "--output-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/xmllint.xunit.xml"\n'}
+[0.653908] (village_wang) StdoutLine: {'line': b'4: Test timeout computed to be: 60\n'}
+[0.696067] (village_wang) StdoutLine: {'line': b"4: -- run_test.py: invoking following command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang':\n"}
+[0.696184] (village_wang) StdoutLine: {'line': b'4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/xmllint.xunit.xml\n'}
+[0.700289] (-) TimerEvent: {}
+[0.701602] (village_li) StdoutLine: {'line': b'\x1b[1mcollecting ... \x1b[0m\x1b[1m\n'}
+[0.701702] (village_li) StdoutLine: {'line': b'collected 3 items                                                              \x1b[0m\n'}
+[0.701843] (village_li) StdoutLine: {'line': b'\n'}
+[0.707155] (village_li) StdoutLine: {'line': b'test/test_copyright.py \x1b[33ms\x1b[0m\x1b[32m                                                 [ 33%]\x1b[0m\n'}
+[0.800397] (-) TimerEvent: {}
+[0.817146] (village_li) StdoutLine: {'line': b'test/test_flake8.py \x1b[31mF\x1b[0m\x1b[31m                                                    [ 66%]\x1b[0m\n'}
+[0.832248] (village_li) StdoutLine: {'line': b'test/test_pep257.py \x1b[32m.\x1b[0m\x1b[31m                                                    [100%]\x1b[0m\n'}
+[0.832413] (village_li) StdoutLine: {'line': b'\n'}
+[0.832491] (village_li) StdoutLine: {'line': b'=================================== FAILURES ===================================\n'}
+[0.832548] (village_li) StdoutLine: {'line': b'\x1b[31m\x1b[1m_________________________________ test_flake8 __________________________________\x1b[0m\n'}
+[0.832600] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mtest/test_flake8.py\x1b[0m:23: in test_flake8\n'}
+[0.864438] (village_li) StdoutLine: {'line': b'    \x1b[94massert\x1b[39;49;00m rc == \x1b[94m0\x1b[39;49;00m, \\\n'}
+[0.864547] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   AssertionError: Found 14 code style errors / warnings:\x1b[0m\n'}
+[0.864607] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:23:13: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.864662] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./setup.py:24:13: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.864871] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4_oop.py:4:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.865112] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4_oop.py:5:1: CNL100 Class definition does not have a new line.\x1b[0m\n'}
+[0.865169] (village_li) StdoutLine: {'line': b"\x1b[1m\x1b[31mE     ./village_li/li4_oop.py:5:22: E231 missing whitespace after ','\x1b[0m\n"}
+[0.865222] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4_oop.py:7:32: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.865281] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4_oop.py:7:46: E225 missing whitespace around operator\x1b[0m\n'}
+[0.865332] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4_oop.py:9:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.865382] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4_oop.py:11:23: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.865432] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4_oop.py:13:21: W292 no newline at end of file\x1b[0m\n'}
+[0.865482] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4.py:4:1: E302 expected 2 blank lines, found 1\x1b[0m\n'}
+[0.865532] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4.py:6:17: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.865582] (village_li) StderrLine: {'line': b'\x1b[33m=============================== warnings summary ===============================\x1b[0m\n'}
+[0.865644] (village_li) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.865695] (village_li) StderrLine: {'line': b'test/test_flake8.py::test_flake8\n'}
+[0.865743] (village_li) StderrLine: {'line': b'  Warning: SelectableGroups dict interface is deprecated. Use select.\n'}
+[0.865792] (village_li) StderrLine: {'line': b'\n'}
+[0.865841] (village_li) StderrLine: {'line': b'-- Docs: https://docs.pytest.org/en/stable/warnings.html\n'}
+[0.865890] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4.py:7:28: Q000 Double quotes found but single quotes preferred\x1b[0m\n'}
+[0.865940] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE     ./village_li/li4.py:9:21: W292 no newline at end of file\x1b[0m\n'}
+[0.865989] (village_li) StdoutLine: {'line': b'\x1b[1m\x1b[31mE   assert 1 == 0\x1b[0m\n'}
+[0.866038] (village_li) StdoutLine: {'line': b'----------------------------- Captured stdout call -----------------------------\n'}
+[0.866090] (village_li) StdoutLine: {'line': b'\n'}
+[0.866140] (village_li) StdoutLine: {'line': b'./setup.py:23:13: Q000 Double quotes found but single quotes preferred\n'}
+[0.866189] (village_li) StdoutLine: {'line': b'            "li4_node = village_li.li4:main",\n'}
+[0.866249] (village_li) StdoutLine: {'line': b'            ^\n'}
+[0.866299] (village_li) StdoutLine: {'line': b'\n'}
+[0.866348] (village_li) StdoutLine: {'line': b'./setup.py:24:13: Q000 Double quotes found but single quotes preferred\n'}
+[0.866397] (village_li) StdoutLine: {'line': b'            "li4_node_oop = village_li.li4_oop:main"\n'}
+[0.866452] (village_li) StdoutLine: {'line': b'            ^\n'}
+[0.866502] (village_li) StdoutLine: {'line': b'\n'}
+[0.866552] (village_li) StdoutLine: {'line': b'./village_li/li4_oop.py:4:1: E302 expected 2 blank lines, found 1\n'}
+[0.866602] (village_li) StdoutLine: {'line': b'class writerNode(Node):\n'}
+[0.866651] (village_li) StdoutLine: {'line': b'^\n'}
+[0.866702] (village_li) StdoutLine: {'line': b'\n'}
+[0.866752] (village_li) StdoutLine: {'line': b'./village_li/li4_oop.py:5:1: CNL100 Class definition does not have a new line.\n'}
+[0.866801] (village_li) StdoutLine: {'line': b'    def __init__(self,name):\n'}
+[0.866850] (village_li) StdoutLine: {'line': b'^\n'}
+[0.866903] (village_li) StdoutLine: {'line': b'\n'}
+[0.866953] (village_li) StdoutLine: {'line': b"./village_li/li4_oop.py:5:22: E231 missing whitespace after ','\n"}
+[0.867002] (village_li) StdoutLine: {'line': b'    def __init__(self,name):\n'}
+[0.867051] (village_li) StdoutLine: {'line': b'                     ^\n'}
+[0.867099] (village_li) StdoutLine: {'line': b'\n'}
+[0.867149] (village_li) StdoutLine: {'line': b'./village_li/li4_oop.py:7:32: Q000 Double quotes found but single quotes preferred\n'}
+[0.867197] (village_li) StdoutLine: {'line': b'        self.get_logger().info("\xe5\xa4\xa7\xe5\xae\xb6\xe5\xa5\xbd,\xe6\x88\x91\xe6\x98\xaf\xe4\xbd\x9c\xe5\xae\xb6%s" %name)\n'}
+[0.867248] (village_li) StdoutLine: {'line': b'                               ^\n'}
+[0.867295] (village_li) StdoutLine: {'line': b'\n'}
+[0.867348] (village_li) StdoutLine: {'line': b'./village_li/li4_oop.py:7:46: E225 missing whitespace around operator\n'}
+[0.867397] (village_li) StdoutLine: {'line': b'        self.get_logger().info("\xe5\xa4\xa7\xe5\xae\xb6\xe5\xa5\xbd,\xe6\x88\x91\xe6\x98\xaf\xe4\xbd\x9c\xe5\xae\xb6%s" %name)\n'}
+[0.867445] (village_li) StdoutLine: {'line': b'                                             ^\n'}
+[0.867493] (village_li) StdoutLine: {'line': b'\n'}
+[0.867541] (village_li) StdoutLine: {'line': b'./village_li/li4_oop.py:9:1: E302 expected 2 blank lines, found 1\n'}
+[0.867589] (village_li) StdoutLine: {'line': b'def main(args=None):\n'}
+[0.867638] (village_li) StdoutLine: {'line': b'^\n'}
+[0.867687] (village_li) StdoutLine: {'line': b'\n'}
+[0.867736] (village_li) StdoutLine: {'line': b'./village_li/li4_oop.py:11:23: Q000 Double quotes found but single quotes preferred\n'}
+[0.867785] (village_li) StdoutLine: {'line': b'    node = writerNode("li5")\n'}
+[0.867839] (village_li) StdoutLine: {'line': b'                      ^\n'}
+[0.867887] (village_li) StdoutLine: {'line': b'\n'}
+[0.867935] (village_li) StdoutLine: {'line': b'./village_li/li4_oop.py:13:21: W292 no newline at end of file\n'}
+[0.867983] (village_li) StdoutLine: {'line': b'    rclpy.shutdown()                    ^\n'}
+[0.868031] (village_li) StdoutLine: {'line': b'\n'}
+[0.868079] (village_li) StdoutLine: {'line': b'./village_li/li4.py:4:1: E302 expected 2 blank lines, found 1\n'}
+[0.868128] (village_li) StdoutLine: {'line': b'def main(args=None):\n'}
+[0.868176] (village_li) StdoutLine: {'line': b'^\n'}
+[0.868224] (village_li) StdoutLine: {'line': b'\n'}
+[0.868272] (village_li) StdoutLine: {'line': b'./village_li/li4.py:6:17: Q000 Double quotes found but single quotes preferred\n'}
+[0.868326] (village_li) StdoutLine: {'line': b'    node = Node("li4")\n'}
+[0.868375] (village_li) StdoutLine: {'line': b'                ^\n'}
+[0.868424] (village_li) StdoutLine: {'line': b'\n'}
+[0.868472] (village_li) StdoutLine: {'line': b'./village_li/li4.py:7:28: Q000 Double quotes found but single quotes preferred\n'}
+[0.868521] (village_li) StdoutLine: {'line': b'    node.get_logger().info("\xe5\xa4\xa7\xe5\xae\xb6\xe5\xa5\xbd,\xe6\x88\x91\xe6\x98\xaf\xe4\xbd\x9c\xe5\xae\xb6\xe6\x9d\x8e\xe5\x9b\x9b")\n'}
+[0.868570] (village_li) StdoutLine: {'line': b'                           ^\n'}
+[0.868620] (village_li) StdoutLine: {'line': b'\n'}
+[0.868668] (village_li) StdoutLine: {'line': b'./village_li/li4.py:9:21: W292 no newline at end of file\n'}
+[0.868717] (village_li) StdoutLine: {'line': b'    rclpy.shutdown()                    ^\n'}
+[0.868765] (village_li) StdoutLine: {'line': b'\n'}
+[0.868817] (village_li) StdoutLine: {'line': b'1     CNL100 Class definition does not have a new line.\n'}
+[0.868866] (village_li) StdoutLine: {'line': b'1     E225 missing whitespace around operator\n'}
+[0.868915] (village_li) StdoutLine: {'line': b"1     E231 missing whitespace after ','\n"}
+[0.868964] (village_li) StdoutLine: {'line': b'3     E302 expected 2 blank lines, found 1\n'}
+[0.869014] (village_li) StdoutLine: {'line': b'6     Q000 Double quotes found but single quotes preferred\n'}
+[0.869065] (village_li) StdoutLine: {'line': b'2     W292 no newline at end of file\n'}
+[0.869115] (village_li) StdoutLine: {'line': b'\n'}
+[0.869164] (village_li) StdoutLine: {'line': b'7 files checked\n'}
+[0.869214] (village_li) StdoutLine: {'line': b'14 errors\n'}
+[0.869262] (village_li) StdoutLine: {'line': b'\n'}
+[0.869311] (village_li) StdoutLine: {'line': b"'C'-type errors: 1\n"}
+[0.869359] (village_li) StdoutLine: {'line': b"'E'-type errors: 5\n"}
+[0.869408] (village_li) StdoutLine: {'line': b"'Q'-type errors: 6\n"}
+[0.869457] (village_li) StdoutLine: {'line': b"'W'-type errors: 2\n"}
+[0.869506] (village_li) StdoutLine: {'line': b'\n'}
+[0.869554] (village_li) StdoutLine: {'line': b'Checked files:\n'}
+[0.869603] (village_li) StdoutLine: {'line': b'\n'}
+[0.869651] (village_li) StdoutLine: {'line': b'* ./setup.py\n'}
+[0.869699] (village_li) StdoutLine: {'line': b'* ./village_li/__init__.py\n'}
+[0.869753] (village_li) StdoutLine: {'line': b'* ./village_li/li4_oop.py\n'}
+[0.869801] (village_li) StdoutLine: {'line': b'* ./village_li/li4.py\n'}
+[0.869849] (village_li) StdoutLine: {'line': b'* ./test/test_flake8.py\n'}
+[0.869897] (village_li) StdoutLine: {'line': b'* ./test/test_copyright.py\n'}
+[0.869945] (village_li) StdoutLine: {'line': b'* ./test/test_pep257.py\n'}
+[0.869993] (village_li) StdoutLine: {'line': b'----------------------------- Captured stderr call -----------------------------\n'}
+[0.870041] (village_li) StdoutLine: {'line': b'option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.870090] (village_li) StdoutLine: {'line': b'option --application-import-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.870139] (village_li) StdoutLine: {'line': b'option --application-package-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.870188] (village_li) StdoutLine: {'line': b'option --import-order-style: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.870246] (village_li) StdoutLine: {'line': b'option --quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.870296] (village_li) StdoutLine: {'line': b'option --inline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.870345] (village_li) StdoutLine: {'line': b'option --multiline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.870395] (village_li) StdoutLine: {'line': b'option --docstring-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future\n'}
+[0.870444] (village_li) StdoutLine: {'line': b'- generated xml file: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/pytest.xml -\n'}
+[0.870497] (village_li) StdoutLine: {'line': b'=========================== short test summary info ============================\n'}
+[0.870547] (village_li) StdoutLine: {'line': b'FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 14 code style...\n'}
+[0.870595] (village_li) StdoutLine: {'line': b'\x1b[31m============== \x1b[31m\x1b[1m1 failed\x1b[0m, \x1b[32m1 passed\x1b[0m, \x1b[33m1 skipped\x1b[0m, \x1b[33m2 warnings\x1b[0m\x1b[31m in 0.24s\x1b[0m\x1b[31m ==============\x1b[0m\n'}
+[0.900517] (-) TimerEvent: {}
+[0.914365] (village_li) CommandEnded: {'returncode': 1}
+[0.914689] (village_li) TestFailure: {'identifier': 'village_li'}
+[0.914716] (village_li) JobEnded: {'identifier': 'village_li', 'rc': 0}
+[1.000698] (-) TimerEvent: {}
+[1.101206] (-) TimerEvent: {}
+[1.201698] (-) TimerEvent: {}
+[1.302283] (-) TimerEvent: {}
+[1.402823] (-) TimerEvent: {}
+[1.503373] (-) TimerEvent: {}
+[1.603908] (-) TimerEvent: {}
+[1.704485] (-) TimerEvent: {}
+[1.714082] (village_wang) StdoutLine: {'line': b"4: File 'package.xml' is valid\n"}
+[1.714595] (village_wang) StdoutLine: {'line': b'4: \n'}
+[1.715045] (village_wang) StdoutLine: {'line': b'4: No problems found\n'}
+[1.746299] (village_wang) StdoutLine: {'line': b'4: -- run_test.py: return code 0\n'}
+[1.746648] (village_wang) StdoutLine: {'line': b"4: -- run_test.py: verify result file '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/xmllint.xunit.xml'\n"}
+[1.758261] (village_wang) StdoutLine: {'line': b'4/4 Test #4: xmllint ..........................   Passed    1.10 sec\n'}
+[1.758634] (village_wang) StdoutLine: {'line': b'\n'}
+[1.758881] (village_wang) StdoutLine: {'line': b'75% tests passed\x1b[0;0m, \x1b[0;31m1 tests failed\x1b[0;0m out of 4\n'}
+[1.759004] (village_wang) StdoutLine: {'line': b'\n'}
+[1.759114] (village_wang) StdoutLine: {'line': b'Label Time Summary:\n'}
+[1.759220] (village_wang) StdoutLine: {'line': b'cppcheck      =   0.15 sec*proc (1 test)\n'}
+[1.759343] (village_wang) StdoutLine: {'line': b'lint_cmake    =   0.11 sec*proc (1 test)\n'}
+[1.759449] (village_wang) StdoutLine: {'line': b'linter        =   1.48 sec*proc (4 tests)\n'}
+[1.759551] (village_wang) StdoutLine: {'line': b'uncrustify    =   0.12 sec*proc (1 test)\n'}
+[1.759653] (village_wang) StdoutLine: {'line': b'xmllint       =   1.10 sec*proc (1 test)\n'}
+[1.759753] (village_wang) StdoutLine: {'line': b'\n'}
+[1.759855] (village_wang) StdoutLine: {'line': b'Total Test time (real) =   1.48 sec\n'}
+[1.759955] (village_wang) StdoutLine: {'line': b'\n'}
+[1.760054] (village_wang) StdoutLine: {'line': b'The following tests FAILED:\n'}
+[1.760154] (village_wang) StdoutLine: {'line': b'\t\x1b[0;31m  3 - uncrustify (Failed)\x1b[0;0m\n'}
+[1.783467] (village_wang) StderrLine: {'line': b'Errors while running CTest\n'}
+[1.783603] (village_wang) StderrLine: {'line': b'Output from these tests are in: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/Testing/Temporary/LastTest.log\n'}
+[1.783670] (village_wang) StderrLine: {'line': b'Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.\n'}
+[1.784853] (village_wang) CommandEnded: {'returncode': 8}
+[1.785292] (village_wang) TestFailure: {'identifier': 'village_wang'}
+[1.785351] (village_wang) JobEnded: {'identifier': 'village_wang', 'rc': 0}
+[1.785674] (-) EventReactorShutdown: {}

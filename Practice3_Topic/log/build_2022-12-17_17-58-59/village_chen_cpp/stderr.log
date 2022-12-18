@@ -1,0 +1,7 @@
+[01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:[m[K In constructor ‘[01m[Kwriternode::writernode(std::string)[m[K’:
+[01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:21:45:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   21 |             timer = this->create_wall_timer([01;31m[K500ms[m[K, std::bind(&writernode::timer_callback, this));
+      |                                             [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/chen_pub_node.dir/build.make:76: CMakeFiles/chen_pub_node.dir/src/chen_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chen_pub_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

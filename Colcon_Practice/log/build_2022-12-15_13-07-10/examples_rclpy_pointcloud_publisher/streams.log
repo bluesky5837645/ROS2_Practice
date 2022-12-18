@@ -1,0 +1,21 @@
+[2.202s] Invoking command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/topics/pointcloud_publisher': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_pointcloud_publisher/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_pointcloud_publisher/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed
+[2.436s] running egg_info
+[2.437s] writing ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/PKG-INFO
+[2.437s] writing dependency_links to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/dependency_links.txt
+[2.437s] writing entry points to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/entry_points.txt
+[2.437s] writing requirements to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/requires.txt
+[2.437s] writing top-level names to ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/top_level.txt
+[2.440s] reading manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[2.441s] writing manifest file '../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info/SOURCES.txt'
+[2.441s] running build
+[2.441s] running build_py
+[2.441s] running install
+[2.442s] running install_lib
+[2.443s] running install_data
+[2.443s] running install_egg_info
+[2.445s] removing '/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher-0.16.2-py3.10.egg-info' (and everything under it)
+[2.446s] Copying ../../../../../build/examples_rclpy_pointcloud_publisher/examples_rclpy_pointcloud_publisher.egg-info to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages/examples_rclpy_pointcloud_publisher-0.16.2-py3.10.egg-info
+[2.446s] running install_scripts
+[2.472s] Installing pointcloud_publisher script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_pointcloud_publisher/lib/examples_rclpy_pointcloud_publisher
+[2.472s] writing list of installed files to '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_pointcloud_publisher/install.log'
+[2.500s] Invoked command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/topics/pointcloud_publisher' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_pointcloud_publisher/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_pointcloud_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_pointcloud_publisher build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_pointcloud_publisher/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_pointcloud_publisher/install.log --single-version-externally-managed

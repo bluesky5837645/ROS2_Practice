@@ -1,0 +1,24 @@
+[2.485s] Invoking command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/actions/minimal_action_client': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_client/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_client/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed
+[2.819s] running egg_info
+[2.820s] writing ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/PKG-INFO
+[2.820s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/dependency_links.txt
+[2.820s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/entry_points.txt
+[2.820s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/requires.txt
+[2.821s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/top_level.txt
+[2.823s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[2.825s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info/SOURCES.txt'
+[2.825s] running build
+[2.825s] running build_py
+[2.825s] running install
+[2.826s] running install_lib
+[2.827s] running install_data
+[2.828s] running install_egg_info
+[2.830s] removing '/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.16.2-py3.10.egg-info' (and everything under it)
+[2.831s] Copying ../../../../../build/examples_rclpy_minimal_action_client/examples_rclpy_minimal_action_client.egg-info to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages/examples_rclpy_minimal_action_client-0.16.2-py3.10.egg-info
+[2.833s] running install_scripts
+[2.857s] Installing client script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.857s] Installing client_asyncio script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.857s] Installing client_cancel script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.861s] Installing client_not_composable script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_client/lib/examples_rclpy_minimal_action_client
+[2.862s] writing list of installed files to '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_client/install.log'
+[2.884s] Invoked command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/actions/minimal_action_client' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_client/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_client/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_client build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_client/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_client/install.log --single-version-externally-managed

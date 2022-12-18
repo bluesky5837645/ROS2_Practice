@@ -1,0 +1,22 @@
+[0.492s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen/prefix_override:/home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_chen build --build-base /home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen/build install --record /home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen/install.log --single-version-externally-managed
+[0.697s] running egg_info
+[0.697s] writing ../../build/village_chen/village_chen.egg-info/PKG-INFO
+[0.697s] writing dependency_links to ../../build/village_chen/village_chen.egg-info/dependency_links.txt
+[0.697s] writing entry points to ../../build/village_chen/village_chen.egg-info/entry_points.txt
+[0.697s] writing requirements to ../../build/village_chen/village_chen.egg-info/requires.txt
+[0.698s] writing top-level names to ../../build/village_chen/village_chen.egg-info/top_level.txt
+[0.699s] reading manifest file '../../build/village_chen/village_chen.egg-info/SOURCES.txt'
+[0.700s] writing manifest file '../../build/village_chen/village_chen.egg-info/SOURCES.txt'
+[0.700s] running build
+[0.700s] running build_py
+[0.700s] running install
+[0.700s] running install_lib
+[0.701s] running install_data
+[0.702s] running install_egg_info
+[0.703s] removing '/home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen/lib/python3.10/site-packages/village_chen-0.0.0-py3.10.egg-info' (and everything under it)
+[0.703s] Copying ../../build/village_chen/village_chen.egg-info to /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen/lib/python3.10/site-packages/village_chen-0.0.0-py3.10.egg-info
+[0.704s] running install_scripts
+[0.720s] Installing chen_node script to /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen/lib/village_chen
+[0.720s] Installing chen_pub_node script to /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen/lib/village_chen
+[0.720s] writing list of installed files to '/home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen/install.log'
+[0.738s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen/prefix_override:/home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/village_chen build --build-base /home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen/build install --record /home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen/install.log --single-version-externally-managed

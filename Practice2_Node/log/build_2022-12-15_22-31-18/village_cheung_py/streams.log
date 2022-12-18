@@ -1,0 +1,18 @@
+[0.755s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/prefix_override:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/build --no-deps install_data
+[0.974s] running develop
+[1.111s] running egg_info
+[1.111s] writing village_cheung_py.egg-info/PKG-INFO
+[1.111s] writing dependency_links to village_cheung_py.egg-info/dependency_links.txt
+[1.111s] writing entry points to village_cheung_py.egg-info/entry_points.txt
+[1.111s] writing requirements to village_cheung_py.egg-info/requires.txt
+[1.111s] writing top-level names to village_cheung_py.egg-info/top_level.txt
+[1.113s] reading manifest file 'village_cheung_py.egg-info/SOURCES.txt'
+[1.114s] writing manifest file 'village_cheung_py.egg-info/SOURCES.txt'
+[1.115s] running build_ext
+[1.115s] Creating /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/python3.10/site-packages/village-cheung-py.egg-link (link to .)
+[1.116s] Installing cheung script to /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/village_cheung_py
+[1.116s] Installing cheung_oop script to /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/village_cheung_py
+[1.116s] 
+[1.116s] Installed /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py
+[1.116s] running install_data
+[1.140s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/prefix_override:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_cheung_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_cheung_py/build --no-deps install_data

@@ -1,0 +1,9 @@
+source;share/village_cheung_py/hook/pythonpath.ps1
+source;share/village_cheung_py/hook/pythonpath.dsv
+source;share/village_cheung_py/hook/pythonpath.sh
+source;share/village_cheung_py/hook/ament_prefix_path.ps1
+source;share/village_cheung_py/hook/ament_prefix_path.dsv
+source;share/village_cheung_py/hook/ament_prefix_path.sh
+source;../../build/village_cheung_py/share/village_cheung_py/hook/pythonpath_develop.ps1
+source;../../build/village_cheung_py/share/village_cheung_py/hook/pythonpath_develop.dsv
+source;../../build/village_cheung_py/share/village_cheung_py/hook/pythonpath_develop.sh

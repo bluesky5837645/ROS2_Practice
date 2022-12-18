@@ -1,0 +1,43 @@
+[2.353s] Invoking command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/services/minimal_service': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed
+[2.610s] running egg_info
+[2.610s] creating ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info
+[2.612s] writing ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/PKG-INFO
+[2.612s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/dependency_links.txt
+[2.612s] writing entry points to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/entry_points.txt
+[2.612s] writing requirements to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/requires.txt
+[2.612s] writing top-level names to ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/top_level.txt
+[2.613s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.613s] reading manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.614s] writing manifest file '../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info/SOURCES.txt'
+[2.614s] running build
+[2.614s] running build_py
+[2.614s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build
+[2.615s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build/lib
+[2.615s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.615s] copying examples_rclpy_minimal_service/__init__.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.615s] copying examples_rclpy_minimal_service/service.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.615s] copying examples_rclpy_minimal_service/service_member_function.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service
+[2.615s] running install
+[2.616s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.616s]   warnings.warn(
+[2.616s] running install_lib
+[2.617s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.617s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/__init__.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.617s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.617s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build/lib/examples_rclpy_minimal_service/service_member_function.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service
+[2.618s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/__init__.py to __init__.cpython-310.pyc
+[2.618s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service.py to service.cpython-310.pyc
+[2.618s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service/service_member_function.py to service_member_function.cpython-310.pyc
+[2.619s] running install_data
+[2.619s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/share/ament_index
+[2.620s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/share/ament_index/resource_index
+[2.620s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.620s] copying resource/examples_rclpy_minimal_service -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/share/ament_index/resource_index/packages
+[2.620s] copying package.xml -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/share/examples_rclpy_minimal_service
+[2.620s] running install_egg_info
+[2.622s] Copying ../../../../../build/examples_rclpy_minimal_service/examples_rclpy_minimal_service.egg-info to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages/examples_rclpy_minimal_service-0.16.2-py3.10.egg-info
+[2.622s] running install_scripts
+[2.642s] Installing service script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.642s] Installing service_member_function script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/examples_rclpy_minimal_service
+[2.642s] writing list of installed files to '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/install.log'
+[2.692s] Invoked command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/services/minimal_service' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_service build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_service/install.log --single-version-externally-managed

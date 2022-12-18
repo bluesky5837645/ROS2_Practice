@@ -1,0 +1,4 @@
+[console_scripts]
+cheung = village_cheung_py.cheung:main
+cheung_oop = village_cheung_py.cheung_oop:main
+

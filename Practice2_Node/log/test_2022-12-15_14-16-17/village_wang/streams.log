@@ -1,0 +1,104 @@
+[0.262s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+[0.266s] UpdateCTestConfiguration  from :/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/CTestConfiguration.ini
+[0.266s] Parse Config file:/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/CTestConfiguration.ini
+[0.266s]    Site: lio-MS-7D18
+[0.266s]    Build name: (empty)
+[0.266s]  Add coverage exclude regular expressions.
+[0.266s] Create new tag: 20221215-0616 - Experimental
+[0.266s] UpdateCTestConfiguration  from :/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/CTestConfiguration.ini
+[0.267s] Parse Config file:/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/CTestConfiguration.ini
+[0.267s] Test project /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang
+[0.267s] Constructing a list of tests
+[0.267s] Done constructing a list of tests
+[0.267s] Updating test list for fixtures
+[0.267s] Added 0 tests to meet fixture requirements
+[0.267s] Checking test dependency graph...
+[0.267s] Checking test dependency graph end
+[0.267s] test 1
+[0.267s]     Start 1: cppcheck
+[0.267s] 
+[0.267s] 1: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/cppcheck.xunit.xml" "--package-name" "village_wang" "--output-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/ament_cppcheck/cppcheck.txt" "--command" "/opt/ros/humble/bin/ament_cppcheck" "--xunit-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/cppcheck.xunit.xml"
+[0.267s] 1: Test timeout computed to be: 300
+[0.311s] 1: -- run_test.py: invoking following command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang':
+[0.311s] 1:  - /opt/ros/humble/bin/ament_cppcheck --xunit-file /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/cppcheck.xunit.xml
+[0.402s] 1: cppcheck 2.7 has known performance issues and therefore will not be used, set the AMENT_CPPCHECK_ALLOW_SLOW_VERSIONS environment variable to override this.
+[0.411s] 1: -- run_test.py: return code 0
+[0.411s] 1: -- run_test.py: verify result file '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/cppcheck.xunit.xml'
+[0.417s] 1/4 Test #1: cppcheck .........................   Passed    0.15 sec
+[0.417s] test 2
+[0.418s]     Start 2: lint_cmake
+[0.418s] 
+[0.418s] 2: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/lint_cmake.xunit.xml" "--package-name" "village_wang" "--output-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/ament_lint_cmake/lint_cmake.txt" "--command" "/opt/ros/humble/bin/ament_lint_cmake" "--xunit-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/lint_cmake.xunit.xml"
+[0.418s] 2: Test timeout computed to be: 60
+[0.460s] 2: -- run_test.py: invoking following command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang':
+[0.461s] 2:  - /opt/ros/humble/bin/ament_lint_cmake --xunit-file /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/lint_cmake.xunit.xml
+[0.510s] 2: 
+[0.510s] 2: No problems found
+[0.516s] 2: -- run_test.py: return code 0
+[0.516s] 2: -- run_test.py: verify result file '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/lint_cmake.xunit.xml'
+[0.523s] 2/4 Test #2: lint_cmake .......................   Passed    0.11 sec
+[0.523s] test 3
+[0.523s]     Start 3: uncrustify
+[0.523s] 
+[0.523s] 3: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml" "--package-name" "village_wang" "--output-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/ament_uncrustify/uncrustify.txt" "--command" "/opt/ros/humble/bin/ament_uncrustify" "--xunit-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml"
+[0.523s] 3: Test timeout computed to be: 60
+[0.567s] 3: -- run_test.py: invoking following command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang':
+[0.567s] 3:  - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml
+[0.630s] 3: Code style divergence in file 'src/wang.cpp':
+[0.631s] 3: 
+[0.631s] 3: --- src/wang.cpp
+[0.631s] 3: +++ src/wang.cpp.uncrustify
+[0.631s] 3: @@ -3,8 +3,9 @@
+[0.631s] 3: -int main(int argc, char * argv[]){
+[0.631s] 3: -    rclcpp::init(argc,argv);
+[0.631s] 3: -    auto node = std::make_shared<rclcpp::Node>("wang");
+[0.631s] 3: -    RCLCPP_INFO(node->get_logger(),"大家好,我是wang");
+[0.631s] 3: -    rclcpp::spin(node);
+[0.631s] 3: -    rclcpp::shutdown();
+[0.631s] 3: -    return 0;
+[0.631s] 3: -}
+[0.631s] 3: +int main(int argc, char * argv[])
+[0.631s] 3: +{
+[0.631s] 3: +  rclcpp::init(argc, argv);
+[0.631s] 3: +  auto node = std::make_shared<rclcpp::Node>("wang");
+[0.631s] 3: +  RCLCPP_INFO(node->get_logger(), "大家好,我是wang");
+[0.631s] 3: +  rclcpp::spin(node);
+[0.631s] 3: +  rclcpp::shutdown();
+[0.631s] 3: +  return 0;
+[0.632s] 3: +}
+[0.632s] 3: 
+[0.632s] 3: 1 files with code style divergence
+[0.638s] 3: -- run_test.py: return code 1
+[0.638s] 3: -- run_test.py: verify result file '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml'
+[0.645s] 3/4 Test #3: uncrustify .......................***Failed    0.12 sec
+[0.645s] test 4
+[0.645s]     Start 4: xmllint
+[0.645s] 
+[0.645s] 4: Test command: /usr/bin/python3.10 "-u" "/opt/ros/humble/share/ament_cmake_test/cmake/run_test.py" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/xmllint.xunit.xml" "--package-name" "village_wang" "--output-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/ament_xmllint/xmllint.txt" "--command" "/opt/ros/humble/bin/ament_xmllint" "--xunit-file" "/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/xmllint.xunit.xml"
+[0.645s] 4: Test timeout computed to be: 60
+[0.687s] 4: -- run_test.py: invoking following command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang':
+[0.687s] 4:  - /opt/ros/humble/bin/ament_xmllint --xunit-file /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/xmllint.xunit.xml
+[1.705s] 4: File 'package.xml' is valid
+[1.706s] 4: 
+[1.706s] 4: No problems found
+[1.738s] 4: -- run_test.py: return code 0
+[1.738s] 4: -- run_test.py: verify result file '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/xmllint.xunit.xml'
+[1.749s] 4/4 Test #4: xmllint ..........................   Passed    1.10 sec
+[1.750s] 
+[1.750s] 75% tests passed[0;0m, [0;31m1 tests failed[0;0m out of 4
+[1.750s] 
+[1.750s] Label Time Summary:
+[1.750s] cppcheck      =   0.15 sec*proc (1 test)
+[1.750s] lint_cmake    =   0.11 sec*proc (1 test)
+[1.750s] linter        =   1.48 sec*proc (4 tests)
+[1.751s] uncrustify    =   0.12 sec*proc (1 test)
+[1.751s] xmllint       =   1.10 sec*proc (1 test)
+[1.751s] 
+[1.751s] Total Test time (real) =   1.48 sec
+[1.751s] 
+[1.751s] The following tests FAILED:
+[1.751s] 	[0;31m  3 - uncrustify (Failed)[0;0m
+[1.775s] Errors while running CTest
+[1.775s] Output from these tests are in: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/Testing/Temporary/LastTest.log
+[1.775s] Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.
+[1.776s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

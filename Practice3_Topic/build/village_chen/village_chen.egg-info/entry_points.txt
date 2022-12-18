@@ -1,0 +1,5 @@
+[console_scripts]
+chen_node = village_chen.chen_termial:main
+chen_pub_node = village_chen.chen_pub:main
+wang_sub_node = village_chen.wang_sub:main
+

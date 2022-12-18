@@ -1,0 +1,59 @@
+[4.292s] Invoking command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/executors': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/install.log --single-version-externally-managed
+[4.774s] running egg_info
+[4.774s] creating ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info
+[4.779s] writing ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/PKG-INFO
+[4.780s] writing dependency_links to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/dependency_links.txt
+[4.780s] writing entry points to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/entry_points.txt
+[4.780s] writing requirements to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/requires.txt
+[4.780s] writing top-level names to ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/top_level.txt
+[4.780s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[4.804s] reading manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[4.805s] writing manifest file '../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info/SOURCES.txt'
+[4.809s] running build
+[4.809s] running build_py
+[4.809s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build
+[4.815s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib
+[4.827s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.830s] copying examples_rclpy_executors/__init__.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.830s] copying examples_rclpy_executors/listener.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.830s] copying examples_rclpy_executors/talker.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.830s] copying examples_rclpy_executors/custom_executor.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.830s] copying examples_rclpy_executors/composed.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.831s] copying examples_rclpy_executors/custom_callback_group.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.831s] copying examples_rclpy_executors/callback_group.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors
+[4.831s] running install
+[4.832s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.832s]   warnings.warn(
+[4.832s] running install_lib
+[4.833s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.833s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/__init__.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.834s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/listener.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.834s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/talker.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.834s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_executor.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.834s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/composed.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.834s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/custom_callback_group.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.834s] copying /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build/lib/examples_rclpy_executors/callback_group.py -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors
+[4.835s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/__init__.py to __init__.cpython-310.pyc
+[4.844s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/listener.py to listener.cpython-310.pyc
+[4.844s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/talker.py to talker.cpython-310.pyc
+[4.845s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_executor.py to custom_executor.cpython-310.pyc
+[4.846s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/composed.py to composed.cpython-310.pyc
+[4.846s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/custom_callback_group.py to custom_callback_group.cpython-310.pyc
+[4.847s] byte-compiling /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors/callback_group.py to callback_group.cpython-310.pyc
+[4.847s] running install_data
+[4.848s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/share/ament_index
+[4.856s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/share/ament_index/resource_index
+[4.864s] creating /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[4.864s] copying resource/examples_rclpy_executors -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/share/ament_index/resource_index/packages
+[4.864s] copying package.xml -> /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/share/examples_rclpy_executors
+[4.864s] running install_egg_info
+[4.866s] Copying ../../../../build/examples_rclpy_executors/examples_rclpy_executors.egg-info to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages/examples_rclpy_executors-0.16.2-py3.10.egg-info
+[4.867s] running install_scripts
+[4.915s] Installing callback_group script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.926s] Installing composed script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.926s] Installing custom_callback_group script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.926s] Installing custom_executor script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.926s] Installing listener script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.926s] Installing talker script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/examples_rclpy_executors
+[4.926s] writing list of installed files to '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/install.log'
+[4.965s] Invoked command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/executors' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_executors/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/examples_rclpy_executors build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_executors/install.log --single-version-externally-managed

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="1" skipped="1" tests="3" time="0.206" timestamp="2022-12-15T14:16:17.776270" hostname="lio-MS-7D18"><testcase classname="village_li.test.test_copyright" name="test_copyright" time="0.000"><skipped type="pytest.skip" message="No copyright header has been placed in the generated source file.">/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li/test/test_copyright.py:20: No copyright header has been placed in the generated source file.</skipped></testcase><testcase classname="village_li.test.test_flake8" name="test_flake8" time="0.089"><failure message="AssertionError: Found 14 code style errors / warnings:&#10;  ./setup.py:23:13: Q000 Double quotes found but single quotes preferred&#10;  ./setup.py:24:13: Q000 Double quotes found but single quotes preferred&#10;  ./village_li/li4_oop.py:4:1: E302 expected 2 blank lines, found 1&#10;  ./village_li/li4_oop.py:5:1: CNL100 Class definition does not have a new line.&#10;  ./village_li/li4_oop.py:5:22: E231 missing whitespace after ','&#10;  ./village_li/li4_oop.py:7:32: Q000 Double quotes found but single quotes preferred&#10;  ./village_li/li4_oop.py:7:46: E225 missing whitespace around operator&#10;  ./village_li/li4_oop.py:9:1: E302 expected 2 blank lines, found 1&#10;  ./village_li/li4_oop.py:11:23: Q000 Double quotes found but single quotes preferred&#10;  ./village_li/li4_oop.py:13:21: W292 no newline at end of file&#10;  ./village_li/li4.py:4:1: E302 expected 2 blank lines, found 1&#10;  ./village_li/li4.py:6:17: Q000 Double quotes found but single quotes preferred&#10;  ./village_li/li4.py:7:28: Q000 Double quotes found but single quotes preferred&#10;  ./village_li/li4.py:9:21: W292 no newline at end of file&#10;assert 1 == 0">test/test_flake8.py:23: in test_flake8
+    assert rc == 0, \
+E   AssertionError: Found 14 code style errors / warnings:
+E     ./setup.py:23:13: Q000 Double quotes found but single quotes preferred
+E     ./setup.py:24:13: Q000 Double quotes found but single quotes preferred
+E     ./village_li/li4_oop.py:4:1: E302 expected 2 blank lines, found 1
+E     ./village_li/li4_oop.py:5:1: CNL100 Class definition does not have a new line.
+E     ./village_li/li4_oop.py:5:22: E231 missing whitespace after ','
+E     ./village_li/li4_oop.py:7:32: Q000 Double quotes found but single quotes preferred
+E     ./village_li/li4_oop.py:7:46: E225 missing whitespace around operator
+E     ./village_li/li4_oop.py:9:1: E302 expected 2 blank lines, found 1
+E     ./village_li/li4_oop.py:11:23: Q000 Double quotes found but single quotes preferred
+E     ./village_li/li4_oop.py:13:21: W292 no newline at end of file
+E     ./village_li/li4.py:4:1: E302 expected 2 blank lines, found 1
+E     ./village_li/li4.py:6:17: Q000 Double quotes found but single quotes preferred
+E     ./village_li/li4.py:7:28: Q000 Double quotes found but single quotes preferred
+E     ./village_li/li4.py:9:21: W292 no newline at end of file
+E   assert 1 == 0</failure></testcase><testcase classname="village_li.test.test_pep257" name="test_pep257" time="0.014" /></testsuite></testsuites>

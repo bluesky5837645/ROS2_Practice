@@ -1,0 +1,48 @@
+[0.224s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang
+[0.232s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.343s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[0.368s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.370s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.375s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.383s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.448s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.449s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.536s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.674s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.727s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.727s] -- Configured cppcheck include dirs: 
+[0.727s] -- Configured cppcheck exclude dirs and/or files: 
+[0.727s] -- Added test 'lint_cmake' to check CMake code style
+[0.728s] -- Added test 'uncrustify' to check C / C++ code style
+[0.728s] -- Configured uncrustify additional arguments: 
+[0.728s] -- Added test 'xmllint' to check XML markup files
+[0.729s] -- Configuring done
+[0.734s] -- Generating done
+[0.735s] -- Build files have been written to: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang
+[0.740s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang -DCMAKE_INSTALL_PREFIX=/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang
+[0.741s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang -- -j12 -l12
+[0.768s] [ 50%] [32mBuilding CXX object CMakeFiles/wang_node.dir/src/wang.cpp.o[0m
+[2.936s] [100%] [32m[1mLinking CXX executable wang_node[0m
+[3.007s] [100%] Built target wang_node
+[3.015s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang -- -j12 -l12
+[3.034s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang
+[3.038s] -- Install configuration: ""
+[3.038s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/ament_index/resource_index/package_run_dependencies/village_wang
+[3.038s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/ament_index/resource_index/parent_prefix_path/village_wang
+[3.038s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/environment/ament_prefix_path.sh
+[3.038s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/environment/ament_prefix_path.dsv
+[3.038s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/environment/path.sh
+[3.038s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/environment/path.dsv
+[3.038s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/local_setup.bash
+[3.039s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/local_setup.sh
+[3.039s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/local_setup.zsh
+[3.039s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/local_setup.dsv
+[3.039s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.dsv
+[3.039s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/ament_index/resource_index/packages/village_wang
+[3.039s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/cmake/village_wangConfig.cmake
+[3.039s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/cmake/village_wangConfig-version.cmake
+[3.039s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/share/village_wang/package.xml
+[3.039s] -- Installing: /home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/lib/village_wang/wang_node
+[3.040s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang/lib/village_wang/wang_node" to ""
+[3.041s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang

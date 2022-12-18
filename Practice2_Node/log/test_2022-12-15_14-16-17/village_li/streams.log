@@ -1,0 +1,133 @@
+[0.234s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li': AMENT_PREFIX_PATH=/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/pytest.xml --junit-prefix=village_li -o cache_dir=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/.pytest_cache /usr/bin/python3 -m pytest
+[0.628s] [1m============================= test session starts ==============================[0m
+[0.628s] platform linux -- Python 3.10.6, pytest-6.2.5, py-1.10.0, pluggy-0.13.0
+[0.632s] cachedir: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/.pytest_cache
+[0.632s] rootdir: /home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li
+[0.632s] plugins: ament-xmllint-0.12.4, ament-pep257-0.12.4, ament-lint-0.12.4, launch-testing-1.0.3, launch-testing-ros-0.19.3, ament-flake8-0.12.4, ament-copyright-0.12.4, colcon-core-0.11.0, rerunfailures-10.2, repeat-0.9.1, cov-3.0.0
+[0.701s] [1mcollecting ... [0m[1m
+[0.701s] collected 3 items                                                              [0m
+[0.701s] 
+[0.707s] test/test_copyright.py [33ms[0m[32m                                                 [ 33%][0m
+[0.817s] test/test_flake8.py [31mF[0m[31m                                                    [ 66%][0m
+[0.832s] test/test_pep257.py [32m.[0m[31m                                                    [100%][0m
+[0.832s] 
+[0.832s] =================================== FAILURES ===================================
+[0.832s] [31m[1m_________________________________ test_flake8 __________________________________[0m
+[0.832s] [1m[31mtest/test_flake8.py[0m:23: in test_flake8
+[0.864s]     [94massert[39;49;00m rc == [94m0[39;49;00m, \
+[0.864s] [1m[31mE   AssertionError: Found 14 code style errors / warnings:[0m
+[0.864s] [1m[31mE     ./setup.py:23:13: Q000 Double quotes found but single quotes preferred[0m
+[0.864s] [1m[31mE     ./setup.py:24:13: Q000 Double quotes found but single quotes preferred[0m
+[0.864s] [1m[31mE     ./village_li/li4_oop.py:4:1: E302 expected 2 blank lines, found 1[0m
+[0.865s] [1m[31mE     ./village_li/li4_oop.py:5:1: CNL100 Class definition does not have a new line.[0m
+[0.865s] [1m[31mE     ./village_li/li4_oop.py:5:22: E231 missing whitespace after ','[0m
+[0.865s] [1m[31mE     ./village_li/li4_oop.py:7:32: Q000 Double quotes found but single quotes preferred[0m
+[0.865s] [1m[31mE     ./village_li/li4_oop.py:7:46: E225 missing whitespace around operator[0m
+[0.865s] [1m[31mE     ./village_li/li4_oop.py:9:1: E302 expected 2 blank lines, found 1[0m
+[0.865s] [1m[31mE     ./village_li/li4_oop.py:11:23: Q000 Double quotes found but single quotes preferred[0m
+[0.865s] [1m[31mE     ./village_li/li4_oop.py:13:21: W292 no newline at end of file[0m
+[0.865s] [1m[31mE     ./village_li/li4.py:4:1: E302 expected 2 blank lines, found 1[0m
+[0.865s] [1m[31mE     ./village_li/li4.py:6:17: Q000 Double quotes found but single quotes preferred[0m
+[0.865s] [33m=============================== warnings summary ===============================[0m
+[0.865s] test/test_flake8.py::test_flake8
+[0.865s] test/test_flake8.py::test_flake8
+[0.865s]   Warning: SelectableGroups dict interface is deprecated. Use select.
+[0.865s] 
+[0.865s] -- Docs: https://docs.pytest.org/en/stable/warnings.html
+[0.865s] [1m[31mE     ./village_li/li4.py:7:28: Q000 Double quotes found but single quotes preferred[0m
+[0.865s] [1m[31mE     ./village_li/li4.py:9:21: W292 no newline at end of file[0m
+[0.865s] [1m[31mE   assert 1 == 0[0m
+[0.865s] ----------------------------- Captured stdout call -----------------------------
+[0.866s] 
+[0.866s] ./setup.py:23:13: Q000 Double quotes found but single quotes preferred
+[0.866s]             "li4_node = village_li.li4:main",
+[0.866s]             ^
+[0.866s] 
+[0.866s] ./setup.py:24:13: Q000 Double quotes found but single quotes preferred
+[0.866s]             "li4_node_oop = village_li.li4_oop:main"
+[0.866s]             ^
+[0.866s] 
+[0.866s] ./village_li/li4_oop.py:4:1: E302 expected 2 blank lines, found 1
+[0.866s] class writerNode(Node):
+[0.866s] ^
+[0.866s] 
+[0.866s] ./village_li/li4_oop.py:5:1: CNL100 Class definition does not have a new line.
+[0.866s]     def __init__(self,name):
+[0.866s] ^
+[0.866s] 
+[0.866s] ./village_li/li4_oop.py:5:22: E231 missing whitespace after ','
+[0.866s]     def __init__(self,name):
+[0.866s]                      ^
+[0.867s] 
+[0.867s] ./village_li/li4_oop.py:7:32: Q000 Double quotes found but single quotes preferred
+[0.867s]         self.get_logger().info("大家好,我是作家%s" %name)
+[0.867s]                                ^
+[0.867s] 
+[0.867s] ./village_li/li4_oop.py:7:46: E225 missing whitespace around operator
+[0.867s]         self.get_logger().info("大家好,我是作家%s" %name)
+[0.867s]                                              ^
+[0.867s] 
+[0.867s] ./village_li/li4_oop.py:9:1: E302 expected 2 blank lines, found 1
+[0.867s] def main(args=None):
+[0.867s] ^
+[0.867s] 
+[0.867s] ./village_li/li4_oop.py:11:23: Q000 Double quotes found but single quotes preferred
+[0.867s]     node = writerNode("li5")
+[0.867s]                       ^
+[0.867s] 
+[0.867s] ./village_li/li4_oop.py:13:21: W292 no newline at end of file
+[0.867s]     rclpy.shutdown()                    ^
+[0.867s] 
+[0.868s] ./village_li/li4.py:4:1: E302 expected 2 blank lines, found 1
+[0.868s] def main(args=None):
+[0.868s] ^
+[0.868s] 
+[0.868s] ./village_li/li4.py:6:17: Q000 Double quotes found but single quotes preferred
+[0.868s]     node = Node("li4")
+[0.868s]                 ^
+[0.868s] 
+[0.868s] ./village_li/li4.py:7:28: Q000 Double quotes found but single quotes preferred
+[0.868s]     node.get_logger().info("大家好,我是作家李四")
+[0.868s]                            ^
+[0.868s] 
+[0.868s] ./village_li/li4.py:9:21: W292 no newline at end of file
+[0.868s]     rclpy.shutdown()                    ^
+[0.868s] 
+[0.868s] 1     CNL100 Class definition does not have a new line.
+[0.868s] 1     E225 missing whitespace around operator
+[0.868s] 1     E231 missing whitespace after ','
+[0.868s] 3     E302 expected 2 blank lines, found 1
+[0.868s] 6     Q000 Double quotes found but single quotes preferred
+[0.869s] 2     W292 no newline at end of file
+[0.869s] 
+[0.869s] 7 files checked
+[0.869s] 14 errors
+[0.869s] 
+[0.869s] 'C'-type errors: 1
+[0.869s] 'E'-type errors: 5
+[0.869s] 'Q'-type errors: 6
+[0.869s] 'W'-type errors: 2
+[0.869s] 
+[0.869s] Checked files:
+[0.869s] 
+[0.869s] * ./setup.py
+[0.869s] * ./village_li/__init__.py
+[0.869s] * ./village_li/li4_oop.py
+[0.869s] * ./village_li/li4.py
+[0.869s] * ./test/test_flake8.py
+[0.869s] * ./test/test_copyright.py
+[0.869s] * ./test/test_pep257.py
+[0.869s] ----------------------------- Captured stderr call -----------------------------
+[0.869s] option --max-complexity: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.870s] option --application-import-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.870s] option --application-package-names: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.870s] option --import-order-style: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.870s] option --quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.870s] option --inline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.870s] option --multiline-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.870s] option --docstring-quotes: please update from optparse string `type=` to argparse callable `type=` -- this will be an error in the future
+[0.870s] - generated xml file: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/pytest.xml -
+[0.870s] =========================== short test summary info ============================
+[0.870s] FAILED test/test_flake8.py::test_flake8 - AssertionError: Found 14 code style...
+[0.870s] [31m============== [31m[1m1 failed[0m, [32m1 passed[0m, [33m1 skipped[0m, [33m2 warnings[0m[31m in 0.24s[0m[31m ==============[0m
+[0.914s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_li' returned '1': AMENT_PREFIX_PATH=/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_li:/home/lio/Desktop/ROSPractice/Practice2_Node/install/village_wang:/opt/ros/humble PYTEST_ADDOPTS=--tb=short --junit-xml=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/pytest.xml --junit-prefix=village_li -o cache_dir=/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_li/.pytest_cache /usr/bin/python3 -m pytest

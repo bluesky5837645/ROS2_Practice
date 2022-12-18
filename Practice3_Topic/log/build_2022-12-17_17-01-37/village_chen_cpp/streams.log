@@ -1,0 +1,10 @@
+[0.227s] Invoking command in '/home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen:/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen_cpp -- -j12 -l12
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target chen_pub_node[0m
+[0.262s] [ 50%] [32mBuilding CXX object CMakeFiles/chen_pub_node.dir/src/chen_pub.cpp.o[0m
+[1.967s] [01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoney[m[K’ does not name a type
+[1.967s]    15 |         [01;31m[Kmoney[m[K = this->create_subscription<std_msgs::msg::UInt32>("money", 10, std::bind(&writernode::topic_callback, this,_1));
+[1.967s]       |         [01;31m[K^~~~~[m[K
+[2.343s] gmake[2]: *** [CMakeFiles/chen_pub_node.dir/build.make:76: CMakeFiles/chen_pub_node.dir/src/chen_pub.cpp.o] Error 1
+[2.343s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chen_pub_node.dir/all] Error 2
+[2.343s] gmake: *** [Makefile:146: all] Error 2
+[2.344s] Invoked command in '/home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen:/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Practice3_Topic/build/village_chen_cpp -- -j12 -l12

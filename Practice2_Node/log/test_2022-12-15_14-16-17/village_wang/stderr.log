@@ -1,0 +1,3 @@
+Errors while running CTest
+Output from these tests are in: /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/Testing/Temporary/LastTest.log
+Use "--rerun-failed --output-on-failure" to re-run the failed cases verbosely.

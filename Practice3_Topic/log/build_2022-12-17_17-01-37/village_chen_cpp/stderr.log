@@ -1,0 +1,6 @@
+[01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kmoney[m[K’ does not name a type
+   15 |         [01;31m[Kmoney[m[K = this->create_subscription<std_msgs::msg::UInt32>("money", 10, std::bind(&writernode::topic_callback, this,_1));
+      |         [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/chen_pub_node.dir/build.make:76: CMakeFiles/chen_pub_node.dir/src/chen_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chen_pub_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

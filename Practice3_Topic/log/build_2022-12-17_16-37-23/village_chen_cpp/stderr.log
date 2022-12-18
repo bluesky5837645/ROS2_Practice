@@ -1,0 +1,27 @@
+[01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:16:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_money[m[K’ does not name a type
+   16 |         [01;31m[Ksub_money[m[K = this->create_subscription<std_msgs::msg::String>("money", 10, std::bind(&writernode::topic_callback, this, _1));
+      |         [01;31m[K^~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:1[m[K:
+[01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:[m[K In member function ‘[01m[Kvoid writernode::topic_callback(std_msgs::msg::String_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:25:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::String_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   25 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"作家已經收到%d元"[m[K, msg->data);
+      |                                             [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/lio/Desktop/ROSPractice/Practice3_Topic/src/village_chen_cpp/src/chen_pub.cpp:25:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   25 |             RCLCPP_INFO(this->get_logger(), "作家已經收到[01;36m[K%d[m[K元", msg->data);
+      |                                                          [01;36m[K~^[m[K
+      |                                                           [01;36m[K|[m[K
+      |                                                           [01;36m[Kint[m[K
+gmake[2]: *** [CMakeFiles/chen_pub_node.dir/build.make:76: CMakeFiles/chen_pub_node.dir/src/chen_pub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/chen_pub_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

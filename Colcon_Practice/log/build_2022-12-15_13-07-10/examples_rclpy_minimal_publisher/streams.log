@@ -1,0 +1,23 @@
+[2.841s] Invoking command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/topics/minimal_publisher': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_publisher/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_publisher/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed
+[3.083s] running egg_info
+[3.083s] writing ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/PKG-INFO
+[3.083s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/dependency_links.txt
+[3.084s] writing entry points to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/entry_points.txt
+[3.084s] writing requirements to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/requires.txt
+[3.084s] writing top-level names to ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/top_level.txt
+[3.085s] reading manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.086s] writing manifest file '../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'
+[3.086s] running build
+[3.086s] running build_py
+[3.086s] running install
+[3.087s] running install_lib
+[3.088s] running install_data
+[3.088s] running install_egg_info
+[3.089s] removing '/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.16.2-py3.10.egg-info' (and everything under it)
+[3.089s] Copying ../../../../../build/examples_rclpy_minimal_publisher/examples_rclpy_minimal_publisher.egg-info to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples_rclpy_minimal_publisher-0.16.2-py3.10.egg-info
+[3.090s] running install_scripts
+[3.108s] Installing publisher_local_function script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.108s] Installing publisher_member_function script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.108s] Installing publisher_old_school script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher
+[3.108s] writing list of installed files to '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_publisher/install.log'
+[3.134s] Invoked command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/topics/minimal_publisher' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_publisher/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_publisher build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_publisher/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_publisher/install.log --single-version-externally-managed

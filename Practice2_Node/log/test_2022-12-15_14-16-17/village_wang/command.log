@@ -1,0 +1,2 @@
+Invoking command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process
+Invoked command in '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang' returned '8': /usr/bin/ctest -C Release -D ExperimentalTest --no-compress-output -V --force-new-ctest-process

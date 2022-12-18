@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target chen_pub_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/chen_pub_node.dir/src/chen_pub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable chen_pub_node[0m
+[100%] Built target chen_pub_node
+-- Install configuration: ""
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/ament_index/resource_index/package_run_dependencies/village_chen_cpp
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/ament_index/resource_index/parent_prefix_path/village_chen_cpp
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/environment/path.sh
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/environment/path.dsv
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/local_setup.bash
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/local_setup.sh
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/local_setup.zsh
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/local_setup.dsv
+-- Installing: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/package.dsv
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/ament_index/resource_index/packages/village_chen_cpp
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/cmake/village_chen_cppConfig.cmake
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/cmake/village_chen_cppConfig-version.cmake
+-- Up-to-date: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/package.xml
+-- Installing: /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/lib/village_chen_cpp/chen_pub_node
+-- Set runtime path of "/home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/lib/village_chen_cpp/chen_pub_node" to ""

@@ -1,0 +1,31 @@
+-- run_test.py: invoking following command in '/home/lio/Desktop/ROSPractice/Practice2_Node/src/village_wang':
+ - /opt/ros/humble/bin/ament_uncrustify --xunit-file /home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml
+
+Code style divergence in file 'src/wang.cpp':
+
+--- src/wang.cpp
++++ src/wang.cpp.uncrustify
+@@ -3,8 +3,9 @@
+-int main(int argc, char * argv[]){
+-    rclcpp::init(argc,argv);
+-    auto node = std::make_shared<rclcpp::Node>("wang");
+-    RCLCPP_INFO(node->get_logger(),"大家好,我是wang");
+-    rclcpp::spin(node);
+-    rclcpp::shutdown();
+-    return 0;
+-}
++int main(int argc, char * argv[])
++{
++  rclcpp::init(argc, argv);
++  auto node = std::make_shared<rclcpp::Node>("wang");
++  RCLCPP_INFO(node->get_logger(), "大家好,我是wang");
++  rclcpp::spin(node);
++  rclcpp::shutdown();
++  return 0;
++}
+
+1 files with code style divergence
+
+
+-- run_test.py: return code 1
+-- run_test.py: verify result file '/home/lio/Desktop/ROSPractice/Practice2_Node/build/village_wang/test_results/village_wang/uncrustify.xunit.xml'

@@ -1,0 +1,129 @@
+[0.035s] Invoking command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set
+[1.975s] -- The C compiler identification is GNU 11.3.0
+[1.975s] -- The CXX compiler identification is GNU 11.3.0
+[1.975s] -- Detecting C compiler ABI info
+[1.975s] -- Detecting C compiler ABI info - done
+[1.976s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.976s] -- Detecting C compile features
+[1.976s] -- Detecting C compile features - done
+[1.976s] -- Detecting CXX compiler ABI info
+[1.976s] -- Detecting CXX compiler ABI info - done
+[1.976s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.976s] -- Detecting CXX compile features
+[1.976s] -- Detecting CXX compile features - done
+[1.976s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.976s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[1.976s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[1.976s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.976s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.976s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.976s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.976s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.976s] -- Found rclcpp: 16.0.2 (/opt/ros/humble/share/rclcpp/cmake)
+[1.976s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.976s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.976s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.977s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.977s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.977s] -- Looking for pthread.h
+[1.977s] -- Looking for pthread.h - found
+[1.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.977s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.977s] -- Found Threads: TRUE  
+[1.977s] -- Found rclcpp_components: 16.0.2 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.977s] -- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.050s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.050s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.050s] -- Configured cppcheck include dirs: /home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclcpp/wait_set/include
+[2.050s] -- Configured cppcheck exclude dirs and/or files: 
+[2.051s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.051s] -- Configured cpplint exclude dirs and/or files: 
+[2.052s] -- Added test 'lint_cmake' to check CMake code style
+[2.054s] -- Added test 'uncrustify' to check C / C++ code style
+[2.054s] -- Configured uncrustify additional arguments: 
+[2.054s] -- Added test 'xmllint' to check XML markup files
+[2.056s] -- Configuring done
+[2.124s] -- Generating done
+[2.125s] -- Build files have been written to: /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set
+[2.163s] Invoked command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclcpp/wait_set -DCMAKE_INSTALL_PREFIX=/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set
+[2.163s] Invoking command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set -- -j12 -l12
+[49.234s] [  4%] [32mBuilding CXX object CMakeFiles/talker.dir/src/talker.cpp.o[0m
+[49.235s] [  8%] [32mBuilding CXX object CMakeFiles/wait_set_talker.dir/rclcpp_components/node_main_wait_set_talker.cpp.o[0m
+[49.235s] [ 12%] [32mBuilding CXX object CMakeFiles/listener.dir/src/listener.cpp.o[0m
+[49.235s] [ 16%] [32mBuilding CXX object CMakeFiles/static_wait_set.dir/src/static_wait_set.cpp.o[0m
+[49.235s] [ 20%] [32mBuilding CXX object CMakeFiles/wait_set.dir/src/wait_set.cpp.o[0m
+[49.235s] [ 25%] [32mBuilding CXX object CMakeFiles/wait_set_listener.dir/rclcpp_components/node_main_wait_set_listener.cpp.o[0m
+[49.235s] [ 29%] [32mBuilding CXX object CMakeFiles/thread_safe_wait_set.dir/src/thread_safe_wait_set.cpp.o[0m
+[49.235s] [ 33%] [32mBuilding CXX object CMakeFiles/wait_set_topics_and_timer.dir/src/wait_set_topics_and_timer.cpp.o[0m
+[49.235s] [ 37%] [32mBuilding CXX object CMakeFiles/wait_set_random_order.dir/src/wait_set_random_order.cpp.o[0m
+[49.235s] [ 41%] [32mBuilding CXX object CMakeFiles/executor_random_order.dir/src/executor_random_order.cpp.o[0m
+[49.235s] [ 45%] [32mBuilding CXX object CMakeFiles/wait_set_topics_with_different_rates.dir/src/wait_set_topics_with_different_rates.cpp.o[0m
+[49.236s] [ 50%] [32m[1mLinking CXX shared library libtalker.so[0m
+[49.236s] [ 50%] Built target talker
+[49.236s] [ 54%] [32m[1mLinking CXX executable wait_set_listener[0m
+[49.236s] [ 54%] Built target wait_set_listener
+[49.236s] [ 58%] [32m[1mLinking CXX executable wait_set[0m
+[49.236s] [ 58%] Built target wait_set
+[49.236s] [ 62%] [32m[1mLinking CXX executable wait_set_random_order[0m
+[49.236s] [ 66%] [32m[1mLinking CXX executable wait_set_talker[0m
+[49.236s] [ 66%] Built target wait_set_random_order
+[49.236s] [ 66%] Built target wait_set_talker
+[54.131s] [ 70%] [32m[1mLinking CXX executable static_wait_set[0m
+[54.591s] [ 75%] [32m[1mLinking CXX executable wait_set_topics_and_timer[0m
+[55.077s] [ 75%] Built target static_wait_set
+[55.595s] [ 75%] Built target wait_set_topics_and_timer
+[58.117s] [ 79%] [32m[1mLinking CXX executable wait_set_topics_with_different_rates[0m
+[58.349s] [ 83%] [32m[1mLinking CXX executable executor_random_order[0m
+[58.507s] [ 87%] [32m[1mLinking CXX shared library liblistener.so[0m
+[58.951s] [ 87%] Built target wait_set_topics_with_different_rates
+[59.114s] [ 87%] Built target executor_random_order
+[59.279s] [ 87%] Built target listener
+[59.395s] [ 91%] [32m[1mLinking CXX executable thread_safe_wait_set[0m
+[60.028s] [ 91%] Built target thread_safe_wait_set
+[60.041s] [ 95%] [32mBuilding CXX object CMakeFiles/wait_set_composed.dir/src/wait_set_composed.cpp.o[0m
+[62.271s] [100%] [32m[1mLinking CXX executable wait_set_composed[0m
+[62.413s] [100%] Built target wait_set_composed
+[62.436s] Invoked command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set -- -j12 -l12
+[62.464s] Invoking command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set
+[62.469s] -- Install configuration: ""
+[62.469s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker
+[62.469s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_talker" to ""
+[62.469s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener
+[62.469s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_listener" to ""
+[62.469s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/libtalker.so
+[62.471s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/libtalker.so" to ""
+[62.471s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/liblistener.so
+[62.475s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/liblistener.so" to ""
+[62.475s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set
+[62.477s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set" to ""
+[62.477s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set
+[62.479s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/static_wait_set" to ""
+[62.479s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set
+[62.482s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/thread_safe_wait_set" to ""
+[62.482s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer
+[62.484s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_and_timer" to ""
+[62.484s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order
+[62.487s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_random_order" to ""
+[62.487s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order
+[62.489s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/executor_random_order" to ""
+[62.489s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates
+[62.491s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_topics_with_different_rates" to ""
+[62.491s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed
+[62.492s] -- Set runtime path of "/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/lib/examples_rclcpp_wait_set/wait_set_composed" to ""
+[62.492s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/ament_index/resource_index/package_run_dependencies/examples_rclcpp_wait_set
+[62.492s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/ament_index/resource_index/parent_prefix_path/examples_rclcpp_wait_set
+[62.492s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.sh
+[62.492s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/ament_prefix_path.dsv
+[62.492s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.sh
+[62.492s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/environment/path.dsv
+[62.492s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.bash
+[62.492s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.sh
+[62.492s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.zsh
+[62.493s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/local_setup.dsv
+[62.493s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.dsv
+[62.493s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/ament_index/resource_index/packages/examples_rclcpp_wait_set
+[62.493s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/ament_index/resource_index/rclcpp_components/examples_rclcpp_wait_set
+[62.493s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig.cmake
+[62.493s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/cmake/examples_rclcpp_wait_setConfig-version.cmake
+[62.493s] -- Installing: /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclcpp_wait_set/share/examples_rclcpp_wait_set/package.xml
+[62.496s] Invoked command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclcpp_wait_set

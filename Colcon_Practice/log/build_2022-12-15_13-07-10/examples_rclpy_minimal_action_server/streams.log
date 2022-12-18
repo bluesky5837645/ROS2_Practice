@@ -1,0 +1,25 @@
+[2.500s] Invoking command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/actions/minimal_action_server': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_server/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_server/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
+[2.745s] running egg_info
+[2.746s] writing ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/PKG-INFO
+[2.746s] writing dependency_links to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/dependency_links.txt
+[2.746s] writing entry points to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/entry_points.txt
+[2.746s] writing requirements to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/requires.txt
+[2.747s] writing top-level names to ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/top_level.txt
+[2.749s] reading manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.750s] writing manifest file '../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info/SOURCES.txt'
+[2.751s] running build
+[2.751s] running build_py
+[2.751s] running install
+[2.752s] running install_lib
+[2.753s] running install_data
+[2.754s] running install_egg_info
+[2.756s] removing '/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.16.2-py3.10.egg-info' (and everything under it)
+[2.757s] Copying ../../../../../build/examples_rclpy_minimal_action_server/examples_rclpy_minimal_action_server.egg-info to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages/examples_rclpy_minimal_action_server-0.16.2-py3.10.egg-info
+[2.758s] running install_scripts
+[2.785s] Installing server script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.785s] Installing server_defer script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.785s] Installing server_not_composable script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.785s] Installing server_queue_goals script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.785s] Installing server_single_goal script to /home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_server/lib/examples_rclpy_minimal_action_server
+[2.786s] writing list of installed files to '/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_server/install.log'
+[2.824s] Invoked command in '/home/lio/Desktop/ROSPractice/Colcon_Practice/src/examples/rclpy/actions/minimal_action_server' returned '0': PYTHONPATH=/home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_server/prefix_override:/home/lio/Desktop/ROSPractice/Colcon_Practice/install/examples_rclpy_minimal_action_server/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/examples_rclpy_minimal_action_server build --build-base /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_server/build install --record /home/lio/Desktop/ROSPractice/Colcon_Practice/build/examples_rclpy_minimal_action_server/install.log --single-version-externally-managed
