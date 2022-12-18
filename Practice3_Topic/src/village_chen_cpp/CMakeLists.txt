@@ -26,7 +26,15 @@ ament_package()
 add_executable(chen_pub_node src/chen_pub.cpp)
 ament_target_dependencies(chen_pub_node rclcpp std_msgs)
 
+add_executable(wang_sub_node src/wang_sub.cpp)
+ament_target_dependencies(wang_sub_node rclcpp std_msgs)
+
 install(TARGETS
 chen_pub_node
+  DESTINATION lib/${PROJECT_NAME}
+)
+
+install(TARGETS
+wang_sub_node
   DESTINATION lib/${PROJECT_NAME}
 )

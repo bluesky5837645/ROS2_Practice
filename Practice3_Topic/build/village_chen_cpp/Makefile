@@ -210,6 +210,19 @@ chen_pub_node/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chen_pub_node.dir/build.make CMakeFiles/chen_pub_node.dir/build
 .PHONY : chen_pub_node/fast
 
+#=============================================================================
+# Target rules for targets named wang_sub_node
+
+# Build rule for target.
+wang_sub_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 wang_sub_node
+.PHONY : wang_sub_node
+
+# fast build rule for target.
+wang_sub_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wang_sub_node.dir/build.make CMakeFiles/wang_sub_node.dir/build
+.PHONY : wang_sub_node/fast
+
 src/chen_pub.o: src/chen_pub.cpp.o
 .PHONY : src/chen_pub.o
 
@@ -234,6 +247,30 @@ src/chen_pub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/chen_pub_node.dir/build.make CMakeFiles/chen_pub_node.dir/src/chen_pub.cpp.s
 .PHONY : src/chen_pub.cpp.s
 
+src/wang_sub.o: src/wang_sub.cpp.o
+.PHONY : src/wang_sub.o
+
+# target to build an object file
+src/wang_sub.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wang_sub_node.dir/build.make CMakeFiles/wang_sub_node.dir/src/wang_sub.cpp.o
+.PHONY : src/wang_sub.cpp.o
+
+src/wang_sub.i: src/wang_sub.cpp.i
+.PHONY : src/wang_sub.i
+
+# target to preprocess a source file
+src/wang_sub.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wang_sub_node.dir/build.make CMakeFiles/wang_sub_node.dir/src/wang_sub.cpp.i
+.PHONY : src/wang_sub.cpp.i
+
+src/wang_sub.s: src/wang_sub.cpp.s
+.PHONY : src/wang_sub.s
+
+# target to generate assembly for a file
+src/wang_sub.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/wang_sub_node.dir/build.make CMakeFiles/wang_sub_node.dir/src/wang_sub.cpp.s
+.PHONY : src/wang_sub.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... uninstall"
 	@echo "... village_chen_cpp_uninstall"
 	@echo "... chen_pub_node"
+	@echo "... wang_sub_node"
 	@echo "... src/chen_pub.o"
 	@echo "... src/chen_pub.i"
 	@echo "... src/chen_pub.s"
+	@echo "... src/wang_sub.o"
+	@echo "... src/wang_sub.i"
+	@echo "... src/wang_sub.s"
 .PHONY : help
 
 

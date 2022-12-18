@@ -645,4 +645,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/village_chen_cpp_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/chen_pub_node.dir/DependInfo.cmake"
+  "CMakeFiles/wang_sub_node.dir/DependInfo.cmake"
   )

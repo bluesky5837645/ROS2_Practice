@@ -14,3 +14,4 @@
 /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/cmake/village_chen_cppConfig-version.cmake
 /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/share/village_chen_cpp/package.xml
 /home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/lib/village_chen_cpp/chen_pub_node
+/home/lio/Desktop/ROSPractice/Practice3_Topic/install/village_chen_cpp/lib/village_chen_cpp/wang_sub_node
